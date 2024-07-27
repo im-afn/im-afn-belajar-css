@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border-style: solid;
+  border-image-source: url('../../Gambar/img_5terre.jpg');
+  border-image-slice: 30;
+}
+
+.contoh1 {
+  border-image-width: 10px;
+}
+
+.contoh2 {
+  border-image-width: 20%;
+}
+
+.contoh3 {
+  border-image-width: 0.5;
+}
+
+.contoh4 {
+  border-image-width: 10px 20px 30px 40px;
+}

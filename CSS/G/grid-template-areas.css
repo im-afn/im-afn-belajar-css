@@ -1,0 +1,155 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+  grid-template-rows: 50px 200px 50px;
+  grid-template-columns: 150px 1fr 1fr;
+  gap: 10px;
+}
+
+.header {
+  grid-area: header;
+  background-color: #2196F3;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #4CAF50;
+}
+
+.main {
+  grid-area: main;
+  background-color: #8BC34A;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #FF5722;
+}
+
+.grid-item {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6 {
+  height: 300px;
+  display: grid;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV1 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV2 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV3 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV4 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV5 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV6 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV {
+  grid-template-areas: none;
+}
+
+#myDIV1 {
+  grid-template-areas: 'myArea myArea .';
+}
+
+#myDIV2 {
+  grid-template-areas: 'myArea myArea . .';
+}
+
+#myDIV3 {
+  grid-template-areas: 'myArea myArea . . .';
+}
+
+#myDIV4 {
+  grid-template-areas: 'myArea myArea .' 'myArea myArea .';
+}
+
+#myDIV5 {
+  grid-template-areas: 'myArea myArea . .' 'myArea myArea . .';
+}
+
+#myDIV6 {
+  grid-template-areas: '. . .' '. myArea myArea';
+}
+
+.item11 {
+  grid-area: myArea;
+}
+
+.item112 {
+  grid-area: myArea;
+}
+
+.item1123 {
+  grid-area: myArea;
+}
+
+.item11234 {
+  grid-area: myArea;
+}
+
+.item112345 {
+  grid-area: myArea;
+}
+
+.item1123456 {
+  grid-area: myArea;
+}
+
+.item11234567 {
+  grid-area: myArea;
+}

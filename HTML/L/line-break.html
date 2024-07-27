@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>line-break</title>
+  <link rel="stylesheet" href="../../CSS/L/line-break.css">
+</head>
+
+<body>
+
+  <h1>line-break</h1>
+
+  <p>
+    Properti line-break dalam CSS digunakan untuk mengontrol bagaimana teks harus dipatahkan saat mencapai tepi
+    wadahnya. Properti ini sangat berguna terutama dalam konteks bahasa yang berbeda, seperti bahasa Asia Timur yang
+    memiliki aturan pembatasan garis yang berbeda dari bahasa Barat.
+  </p>
+
+  <ul>
+    <li><b>auto</b>: Nilai default. Browser akan menggunakan algoritma pembatasan garis standar.</li>
+    <li><b>loose</b>: Menyediakan pemutusan garis yang lebih longgar, biasanya digunakan untuk teks dalam bahasa Jepang.
+    </li>
+    <li><b>normal</b>: Menggunakan aturan pembatasan garis standar.</li>
+    <li><b>strict</b>: Menyediakan pemutusan garis yang lebih ketat, mengikuti aturan bahasa Asia Timur secara lebih
+      ketat.
+    </li>
+    <li><b>anywhere</b>: Memungkinkan pemutusan garis di mana saja, bahkan di dalam kata-kata.</li>
+  </ul>
+
+
+  <p class="auto-break">Ini adalah contoh teks dengan line-break auto. Cobalah untuk melihat bagaimana teks ini
+    dipatahkan ketika mencapai tepi elemen ini.</p>
+  <p class="strict-break">Ini adalah contoh teks dengan line-break strict. Cobalah untuk melihat bagaimana teks ini
+    dipatahkan ketika mencapai tepi elemen ini.</p>
+
+  <p class="anywhere-break">Ini adalah contoh teks dengan line-break anywhere. Teks ini dapat dipatahkan di mana saja,
+    bahkan di dalam kata-kata.</p>
+
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+  opacity: 0.2;
+  /* Mengatur tingkat transparansi menjadi 70% */
+}

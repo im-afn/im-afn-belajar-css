@@ -1,0 +1,21 @@
+.container {
+  width: 50px;
+  /* Lebar kontainer */
+  border: 1px solid #ccc;
+  /* Garis pinggir */
+}
+
+.normal-wrap {
+  overflow-wrap: normal;
+  /* Pemisahan kata normal */
+}
+
+.break-word-wrap {
+  overflow-wrap: break-word;
+  /* Pemisahan kata di antara suku kata atau karakter */
+}
+
+.anywhere-wrap {
+  overflow-wrap: anywhere;
+  /* Tidak ada pemisahan kata, bahkan jika melebihi lebar */
+}

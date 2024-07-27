@@ -1,0 +1,21 @@
+.container {
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.normal {
+  word-break: normal;
+  background-color: lightblue;
+}
+
+.break-all {
+  word-break: break-all;
+  background-color: lightgreen;
+}
+
+.keep-all {
+  word-break: keep-all;
+  background-color: lightcoral;
+}

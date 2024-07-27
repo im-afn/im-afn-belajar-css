@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clip-path</title>
+  <link rel="stylesheet" href="../../CSS/C/clip-path.css">
+</head>
+
+<body>
+
+  <h1>clip-path</h1>
+
+  <p>
+    Properti clip-path dalam CSS digunakan untuk menentukan kliping (penyembunyian) elemen dengan menggunakan bentuk
+    yang lebih kompleks daripada yang disediakan oleh properti clip yang sudah deprecated. Properti ini memungkinkan
+    Anda untuk membuat kliping berdasarkan bentuk seperti lingkaran, elips, poligon, dan jalur SVG.
+  </p>
+
+  <ul>
+    <li><b>shape</b>: Mendefinisikan bentuk kliping seperti inset(), circle(), ellipse(), polygon(), atau path().</li>
+    <li><b>url()</b>: Mengarahkan ke file SVG eksternal yang mendefinisikan bentuk kliping.</li>
+    <li><b>none</b>: Tidak ada kliping yang diterapkan.</li>
+    <li><b>initial</b>: Mengatur properti ke nilai awal.</li>
+    <li><b>inherit</b>: Mewarisi properti dari elemen induknya.</li>
+  </ul>
+
+  <div class="element circle-clip"></div>
+  <div class="element ellipse-clip"></div>
+  <div class="element polygon-clip"></div>
+  <div class="element path-clip"></div>
+
+  <div class="element shape">Ini adalah konten yang dipotong dengan shape (inset).</div>
+  <div class="element circle">Ini adalah konten yang dipotong dengan shape (circle).</div>
+  <div class="element ellipse">Ini adalah konten yang dipotong dengan shape (ellipse).</div>
+  <div class="element polygon">Ini adalah konten yang dipotong dengan shape (polygon).</div>
+  <div class="element path">Ini adalah konten yang dipotong dengan shape (path).</div>
+  <div class="element url">Ini adalah konten yang dipotong dengan URL (SVG).</div>
+  <br>
+  <div class="element none">Ini adalah konten tanpa kliping.</div>
+
+
+</body>
+
+</html>

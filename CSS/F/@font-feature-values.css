@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/mycustomfont.woff2') format('woff2'),
+    url('fonts/mycustomfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-feature-values MyCustomFont {
+  @styleset {
+    common-ligatures: 1;
+  }
+
+  @character-variant {
+    small-caps: 2;
+  }
+
+  @number {
+    proportional-nums: 1;
+  }
+}
+
+.text-example {
+  font-family: 'MyCustomFont', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.text-example h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.text-example .small-caps {
+  font-variant-caps: small-caps;
+}
+
+.text-example .proportional-nums {
+  font-feature-settings: 'pnum';
+}

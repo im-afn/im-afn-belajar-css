@@ -1,0 +1,6 @@
+.content {
+  column-count: 2;
+  /* Membuat layout dua kolom */
+  widows: 3;
+  /* Setidaknya tiga baris harus muncul di atas kolom berikutnya */
+}

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.contoh1 {
+  border-right: 5px solid black;
+}
+
+.contoh2 {
+  border-right: 10px dashed red;
+}
+
+.contoh3 {
+  border-right: 15px dotted blue;
+}
+
+.contoh4 {
+  border-right: 5px double green;
+}
+
+.contoh5 {
+  border-right: 7px groove purple;
+}
+
+.contoh6 {
+  border-right: 3px ridge orange;
+}

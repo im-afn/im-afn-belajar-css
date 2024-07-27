@@ -1,0 +1,29 @@
+.emphasis-none {
+  text-emphasis: none;
+  /* Tidak ada penekanan */
+}
+
+.emphasis-filled {
+  text-emphasis: filled red;
+  /* Penekanan berisi berwarna merah */
+}
+
+.emphasis-open {
+  text-emphasis: open blue;
+  /* Penekanan terbuka berwarna biru */
+}
+
+.emphasis-dot {
+  text-emphasis: dot green;
+  /* Penekanan berupa titik berwarna hijau */
+}
+
+.emphasis-circle {
+  text-emphasis: circle purple;
+  /* Penekanan berupa lingkaran ungu */
+}
+
+.emphasis-square {
+  text-emphasis: square orange;
+  /* Penekanan berupa kotak oranye */
+}

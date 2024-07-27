@@ -1,0 +1,14 @@
+.normal {
+  word-spacing: normal;
+  background-color: lightblue;
+}
+
+.wide {
+  word-spacing: 20px;
+  background-color: lightgreen;
+}
+
+.narrow {
+  word-spacing: -5px;
+  background-color: lightcoral;
+}

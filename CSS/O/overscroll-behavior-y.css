@@ -1,0 +1,12 @@
+.scrollable-container {
+  width: 300px;
+  /* Lebar kontainer */
+  height: 200px;
+  /* Tinggi kontainer */
+  overflow-y: auto;
+  /* Aktifkan overflow vertikal */
+  border: 1px solid #ccc;
+  /* Garis pinggir */
+  overscroll-behavior-y: contain;
+  /* Atur perilaku overscrolling sumbu vertikal */
+}

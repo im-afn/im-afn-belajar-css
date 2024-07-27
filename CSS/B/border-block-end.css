@@ -1,0 +1,13 @@
+div {
+  writing-mode: horizontal-tb;
+  border-block-end: 5px solid green;
+  margin: 20px;
+  padding: 20px;
+}
+
+.paraf {
+  writing-mode: vertical-rl;
+  border-block-end: 4px dotted blue;
+  margin: 20px;
+  padding: 20px;
+}

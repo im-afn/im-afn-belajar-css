@@ -1,0 +1,19 @@
+.indent-50px {
+  text-indent: 50px;
+  /* Indentasi 50 piksel */
+}
+
+.indent-5em {
+  text-indent: 5em;
+  /* Indentasi 5em */
+}
+
+.indent-10percent {
+  text-indent: 10%;
+  /* Indentasi 10% dari lebar elemen kontainer */
+}
+
+.no-indent {
+  text-indent: 0;
+  /* Tidak ada indentasi */
+}

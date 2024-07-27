@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #3498db;
+  position: absolute;
+  offset-path: path('M 50 80 C 150 -20 250 180 350 80');
+  offset-distance: 150px;
+  offset-position: auto;
+  offset-rotate: 45deg;
+  offset-anchor: center;
+  /* Titik anchor di tengah elemen */
+  animation: moveCircle 5s infinite alternate;
+}
+
+@keyframes moveCircle {
+  0% {
+    offset-distance: 0;
+  }
+
+  100% {
+    offset-distance: 150px;
+  }
+}

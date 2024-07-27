@@ -1,0 +1,19 @@
+.example1 {
+  font: italic bold 20px/1.5 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+
+.example2 {
+  font: normal small-caps 18px 'Courier New', monospace;
+  margin-bottom: 20px;
+}
+
+.example3 {
+  font: 400 14px/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.example4 {
+  font: 16px Arial, sans-serif;
+  margin-bottom: 20px;
+}

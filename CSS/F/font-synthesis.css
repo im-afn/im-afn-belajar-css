@@ -1,0 +1,32 @@
+.text-example {
+  font-family: "Times New Roman", serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.no-synthesis {
+  font-synthesis: none;
+}
+
+.synthesis-weight {
+  font-synthesis: weight;
+  font-weight: bold;
+}
+
+.synthesis-style {
+  font-synthesis: style;
+  font-style: italic;
+}
+
+.synthesis-both {
+  font-synthesis: weight style;
+  font-weight: bold;
+  font-style: italic;
+}

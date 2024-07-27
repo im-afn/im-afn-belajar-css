@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>box-decoration-break</title>
+  <link rel="stylesheet" href="../../CSS/B/box-decoration-break.css">
+</head>
+
+<body>
+
+  <h1>box-decoration-break</h1>
+
+  <p>
+    Properti box-decoration-break digunakan dalam CSS untuk mengontrol bagaimana sebuah elemen yang terpisah secara
+    visual seperti border, padding, dan background dibuat ketika elemen tersebut diberi jeda atau di-break pada garis
+    pemisah (seperti ketika terdapat teks yang panjang).
+  </p>
+
+
+
+  <div class="container">
+    <div class="box slice">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium, turpis sed tempus vestibulum, odio felis
+      <br>
+      eleifend nisi, a dictum eros urna id arcu. Integer in mi euismod, volutpat mauris in, tristique lacus.
+      Pellentesque eu nulla justo. Sed ac varius nisi. Duis hendrerit ligu <br>
+      condimentum, lobortis enim a, ultrices eros. Ut suscipit felis a tellus condimentum, id feugiat odio lobortis.
+      Vestibulum in ligula vitae felis rhoncus faucibus. Phasellus sollicitudin lorem nisi, non vulputate velit vehicula
+      in.
+    </div>
+
+    <div class="box clone">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium, turpis sed tempus vestibulum, odio felis
+      eleifend nisi, a dictum eros urna id arcu. Vivamus at odio nec purus tempus consequat.
+    </div>
+
+    <div class="box slice">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium, turpis sed tempus vestibulum, odio felis
+      eleifend nisi, a dictum eros urna id arcu. Aliquam ultrices, sapien ut tincidunt scelerisque, turpis sapien
+      tristique nisl, eget iaculis metus orci non metus.
+    </div>
+  </div>
+
+  <h2>box-decoration-break: clone:</h2>
+  <span class="ex1">CSS<br>is<br>easy<br>to learn</span>
+  <h2>box-decoration-break: slice (default):</h2>
+  <span class="ex2">CSS<br>is<br>easy<br>to learn</span>
+
+</body>
+
+</html>

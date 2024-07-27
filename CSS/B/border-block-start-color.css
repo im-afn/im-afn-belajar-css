@@ -1,0 +1,23 @@
+.red-border {
+  border: 2px solid;
+  border-block-start: 5px solid;
+  border-block-start-color: red;
+  padding: 20px;
+  margin: 20px;
+}
+
+.blue-border {
+  border: 2px solid;
+  border-block-start: 3px dotted;
+  border-block-start-color: blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+.green-border {
+  border: 2px solid;
+  border-block-start: 4px double;
+  border-block-start-color: green;
+  padding: 20px;
+  margin: 20px;
+}

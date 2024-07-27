@@ -1,0 +1,12 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: transform 0.5s;
+  /* Animasi transformasi */
+}
+
+.box:hover {
+  transform: translate(50px, 50px) rotate(45deg) scale(1.2);
+  /* Menggeser, memutar, dan menskalakan saat hover */
+}

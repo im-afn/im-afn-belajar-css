@@ -1,0 +1,45 @@
+img {
+  width: 300px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.filter-none {
+  filter: none;
+}
+
+.filter-blur {
+  filter: blur(5px);
+}
+
+.filter-brightness {
+  filter: brightness(150%);
+}
+
+.filter-contrast {
+  filter: contrast(200%);
+}
+
+.filter-grayscale {
+  filter: grayscale(100%);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(90deg);
+}
+
+.filter-invert {
+  filter: invert(100%);
+}
+
+.filter-opacity {
+  filter: opacity(50%);
+}
+
+.filter-saturate {
+  filter: saturate(200%);
+}
+
+.filter-sepia {
+  filter: sepia(100%);
+}

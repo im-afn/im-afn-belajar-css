@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  height: 100px;
+  background-color: #2ee01d;
+  padding: 20px;
+  border: 20px solid;
+  border-style: solid;
+  border-image-source: url('../../Gambar/border.png');
+}
+
+.contoh1 {
+  border-image-slice: 30;
+}
+
+.contoh2 {
+  border-image-slice: 30% 20%;
+}
+
+.contoh3 {
+  border-image-slice: 10 20 30;
+}
+
+.contoh4 {
+  border-image-slice: 10% 20% 30% 40%;
+}
+
+.contoh5 {
+  border-image-slice: 20 fill;
+  border-image-width: 10px;
+  border-image-outset: 5px;
+  border-image-repeat: stretch;
+}
+
+#borderimg1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  background-color: #2ee01d;
+  border-image: url(../../Gambar/border.png) round;
+  border-image-slice: 10%;
+}
+
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  background-color: #2ee01d;
+  border-image: url(../../Gambar/border.png) round;
+  border-image-slice: 20%;
+}
+
+#borderimg3 {
+  border: 10px solid transparent;
+  padding: 15px;
+  background-color: #2ee01d;
+  border-image: url(../../Gambar/border.png) round;
+  border-image-slice: 30%;
+}

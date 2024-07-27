@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border-width: 10px;
+  border: 30px solid;
+  border-image-source: url('../../Gambar/pic_trulli.jpg');
+  border-image-slice: 30;
+}
+
+.contoh1 {
+  border-image-repeat: stretch;
+}
+
+.contoh2 {
+  border-image-repeat: repeat;
+}
+
+.contoh3 {
+  border-image-repeat: round;
+}
+
+.contoh4 {
+  border-image-repeat: space;
+}
+
+.myDIV {
+  height: 200px;
+  width: 70%;
+  background-color: #FFFFFF;
+  border: 20px solid transparent;
+  padding: 15px;
+  margin-top: 20px;
+  border-image-source: url('../../Gambar/border.png');
+  border-image-slice: 30;
+}
+
+.satu {
+  border-image-repeat: stretch;
+}
+
+.dua {
+  border-image-repeat: repeat;
+}
+
+.tiga {
+  border-image-repeat: round;
+}
+
+.empat {
+  border-image-repeat: space;
+}

@@ -1,0 +1,64 @@
+.default-list {
+  list-style: disc outside none;
+}
+
+.custom-list {
+  list-style: square inside;
+}
+
+.image-list {
+  list-style: url('https://example.com/path/to/image.png') outside;
+}
+
+.combined-list {
+  list-style: lower-roman inside url('https://example.com/path/to/image.png');
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6,
+#myDIV7,
+#myDIV8 {
+  height: 100px;
+  background-color: #91b97a;
+}
+
+#myDIV ul {
+  list-style: disc inside;
+}
+
+#myDIV1 ul {
+  list-style: disc outside;
+}
+
+#myDIV2 ul {
+  list-style: circle inside;
+}
+
+#myDIV3 ul {
+  list-style: circle outside;
+}
+
+#myDIV4 ul {
+  list-style: square inside;
+}
+
+#myDIV5 ul {
+  list-style: upper-roman inside;
+}
+
+#myDIV6 ul {
+  list-style: lower-alpha inside;
+}
+
+#myDIV7 ul {
+  list-style: disc inside url("../../Gambar/smiley.gif");
+}
+
+#myDIV8 ul {
+  list-style: disc inside url("../../Gambar/smiley.gif");
+}

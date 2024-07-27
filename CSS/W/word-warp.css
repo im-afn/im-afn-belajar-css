@@ -1,0 +1,16 @@
+.container {
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.normal {
+  word-wrap: normal;
+  background-color: lightblue;
+}
+
+.break-word {
+  word-wrap: break-word;
+  background-color: lightgreen;
+}

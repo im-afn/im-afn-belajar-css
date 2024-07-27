@@ -1,0 +1,26 @@
+.text-example {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.text-example h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.kerning-auto {
+  font-kerning: auto;
+}
+
+.kerning-normal {
+  font-kerning: normal;
+}
+
+.kerning-none {
+  font-kerning: none;
+}

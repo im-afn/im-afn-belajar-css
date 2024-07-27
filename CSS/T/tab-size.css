@@ -1,0 +1,19 @@
+pre {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.default-tab {
+  tab-size: 8;
+  /* Nilai default */
+}
+
+.custom-tab {
+  tab-size: 4;
+  /* Menentukan ukuran tab menjadi 4 spasi */
+}
+
+.length-tab {
+  tab-size: 2em;
+  /* Menentukan ukuran tab menggunakan unit panjang */
+}

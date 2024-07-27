@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+div {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr-block {
+  direction: ltr;
+  text-align: left;
+}
+
+.rtl-block {
+  direction: rtl;
+  text-align: right;
+}

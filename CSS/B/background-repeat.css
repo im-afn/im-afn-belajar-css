@@ -1,0 +1,39 @@
+div {
+  margin-bottom: 20px;
+}
+
+.repeat {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png');
+  background-size: 50px;
+  background-repeat: repeat;
+}
+
+.repeat-x {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png');
+  background-size: 50px;
+  background-repeat: repeat-x;
+}
+
+.repeat-y {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png');
+  background-size: 50px;
+  background-repeat: repeat-y;
+}
+
+.no-repeat {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png');
+  background-size: 50px;
+  background-repeat: no-repeat;
+}

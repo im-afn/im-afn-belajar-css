@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  background-color: lightgray;
+  border-right-width: 5px;
+  border-right-style: solid;
+}
+
+.contoh1 {
+  border-right-color: black;
+}
+
+.contoh2 {
+  border-right-color: red;
+}
+
+.contoh3 {
+  border-right-color: blue;
+}
+
+.contoh4 {
+  border-right-color: green;
+}
+
+.contoh5 {
+  border-right-color: purple;
+}

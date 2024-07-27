@@ -1,0 +1,30 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-inline-end: 30px;
+}
+
+.container {
+  width: 110px;
+  background-color: lightcoral;
+  border: 1px solid;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(35, 76, 90);
+  margin-inline-end: 10%;
+}
+
+.bluediv {
+  background-color: rgba(182, 215, 229, 0.6);
+  border: solid rgb(194, 156, 156) 1px;
+  margin-inline-end: 10px;
+}
+
+.reddiv {
+  background-color: rgba(239, 135, 88, 0.6);
+  text-align: center;
+}

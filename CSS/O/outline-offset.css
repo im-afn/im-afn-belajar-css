@@ -1,0 +1,14 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  outline: 4px solid #f39c12;
+  /* Menetapkan garis luar */
+  outline-offset: 6px;
+  /* Menetapkan jarak antara garis luar dan elemen */
+}

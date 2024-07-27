@@ -1,0 +1,23 @@
+.box1 {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  padding: 20px;
+  /* Padding seragam di semua sisi */
+}
+
+.box2 {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  padding: 10px 20px 30px 40px;
+  /* Padding berbeda di setiap sisi */
+}
+
+.box3 {
+  width: 50%;
+  height: 100px;
+  background-color: lightcoral;
+  padding: 5%;
+  /* Padding 5% dari lebar elemen */
+}

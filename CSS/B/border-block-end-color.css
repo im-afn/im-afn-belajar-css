@@ -1,0 +1,17 @@
+.example1 {
+  border: 2px solid black;
+  border-block-end-color: blue;
+  padding: 10px;
+}
+
+.example2 {
+  border: 2px solid black;
+  border-block-end-color: #00ff00;
+  padding: 10px;
+}
+
+.example3 {
+  border: 2px solid black;
+  border-block-end-color: rgba(255, 0, 0, 0.5);
+  padding: 10px;
+}

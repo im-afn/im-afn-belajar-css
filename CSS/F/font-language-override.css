@@ -1,0 +1,26 @@
+.text-example {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.text-example h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.language-override-normal {
+  font-language-override: normal;
+}
+
+.language-override-eng {
+  font-language-override: "ENG";
+}
+
+.language-override-fra {
+  font-language-override: "FRA";
+}

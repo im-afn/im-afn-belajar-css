@@ -1,0 +1,45 @@
+.container {
+  width: 400px;
+  margin: 20px auto;
+  border: 2px dashed #999;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.box {
+  width: 100%;
+  padding: 20px;
+  border: 5px solid #333;
+  background-color: lightgray;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.slice {
+  box-decoration-break: slice;
+  /* Nilai default */
+}
+
+.clone {
+  box-decoration-break: clone;
+}
+
+span {
+  border: 5px solid red;
+  padding: 0em 1em;
+  border-radius: 16px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+span.ex1 {
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+span.ex2 {
+  -webkit-box-decoration-break: slice;
+  -o-box-decoration-break: slice;
+  box-decoration-break: slice;
+}

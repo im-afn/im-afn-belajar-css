@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 20px solid;
+}
+
+.contoh1 {
+  border-image: url('../../Gambar/img_mountains.jpg') 15% round;
+}
+
+.contoh2 {
+  border-image: url('../../Gambar/img_mountains.jpg') 50% stretch;
+}
+
+.contoh3 {
+  border-image: url('../../Gambar/img_mountains.jpg') 20% repeat;
+}
+
+.contoh4 {
+  border-image: url('../../Gambar/img_mountains.jpg') 20% / 20px / 10px space;
+}
+
+.myDIV {
+  height: 50px;
+  width: 100px;
+  background-color: #FFFFFF;
+  border: 15px solid transparent;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.satu {
+  border-image: url(../../Gambar/border.png) 50 round;
+}
+
+.dua {
+  border-image: url(../../Gambar/border.png) 20% round;
+}
+
+.tiga {
+  border-image: url(../../Gambar/border.png) 30% round;
+}
+
+.empat {
+  border-image: url(../../Gambar/border.png) 20% stretch;
+}
+
+.lima {
+  border-image: url(../../Gambar/border.png) 30% stretch;
+}

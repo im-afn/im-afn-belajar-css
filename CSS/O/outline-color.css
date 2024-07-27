@@ -1,0 +1,15 @@
+.btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  outline: 2px solid;
+  /* Ketebalan garis luar akan ditentukan oleh outline-width */
+  outline-color: #2ea071;
+  /* Menetapkan warna garis luar */
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}

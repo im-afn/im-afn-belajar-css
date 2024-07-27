@@ -1,0 +1,27 @@
+html {
+  font-size: small;
+  color: blue;
+}
+
+#ex1 {
+  background-color: yellow;
+  color: red;
+}
+
+#ex2 {
+  background-color: yellow;
+  color: red;
+  all: inherit;
+}
+
+#ex3 {
+  background-color: yellow;
+  color: red;
+  all: initial;
+}
+
+#ex4 {
+  background-color: yellow;
+  color: red;
+  all: unset;
+}

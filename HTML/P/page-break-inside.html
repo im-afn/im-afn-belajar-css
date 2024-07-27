@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1, initial-scale=1.0">
+  <title>page-break-inside</title>
+  <link rel="stylesheet" href="../../CSS/P/page-break-inside.css">
+</head>
+
+<body>
+
+  <h1>page-break-inside</h1>
+
+  <p>
+    Properti page-break-inside dalam CSS digunakan untuk mengontrol perilaku pemisahan halaman di dalam elemen saat
+    mencetak halaman web. Properti ini mendefinisikan apakah dan bagaimana halaman cetak harus memisahkan (break) konten
+    di dalam elemen tertentu.
+  </p>
+
+  <ul>
+    <li><b>auto</b>: Menentukan bahwa pemisahan halaman di dalam elemen diatur oleh browser.</li>
+    <li><b>avoid</b>: Mencegah pemisahan halaman di dalam elemen, jika memungkinkan.</li>
+    <li><b>avoid-page</b>: Mencegah pemisahan halaman di dalam elemen, dan juga memastikan bahwa elemen tersebut tidak
+      dimulai
+      di halaman baru.</li>
+    <li><b>avoid-column</b>: Mencegah pemisahan halaman di dalam elemen dan juga memastikan bahwa elemen tersebut tidak
+      dimulai
+      di kolom baru pada tata letak yang menggunakan multi-column.</li>
+  </ul>
+
+  <div class="break-inside-auto">
+    Konten dengan Page Break Inside Auto
+  </div>
+  <div class="break-inside-avoid">
+    Konten dengan Page Break Inside Avoid
+  </div>
+  <div>
+    Konten tambahan tanpa pengaturan page-break-inside
+  </div>
+
+</body>
+
+</html>

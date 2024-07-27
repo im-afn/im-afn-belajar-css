@@ -1,0 +1,13 @@
+.btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  outline: 2px solid #f39c12;
+  /* Menetapkan garis luar dengan warna dan ketebalan tertentu */
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}

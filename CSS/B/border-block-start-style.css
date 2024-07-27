@@ -1,0 +1,35 @@
+.contoh {
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  border-width: 2px;
+  border-color: black;
+  border-block-start-style: dashed;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.example {
+  width: 200px;
+  height: 100px;
+  border: 5px solid;
+  border-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.example1 {
+  border-block-start-style: solid;
+}
+
+.example2 {
+  border-block-start-style: dotted;
+}
+
+.example3 {
+  background-image: url('../../Gambar/abstract.jpg');
+}
+
+.example4 {
+  border-block-start-style: double;
+}

@@ -1,0 +1,9 @@
+.outside-list {
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+.inside-list {
+  list-style-position: inside;
+  list-style-type: disc;
+}

@@ -1,0 +1,16 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.box::before {
+  content: "Sebelum";
+  font-weight: bold;
+}
+
+.box::after {
+  content: "Setelah";
+  font-style: italic;
+}

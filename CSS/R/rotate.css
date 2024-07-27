@@ -1,0 +1,28 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 50px;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.rotate-0_5turn {
+  transform: rotate(0.5turn);
+}
+
+.box:hover {
+  transform: rotate(360deg);
+}

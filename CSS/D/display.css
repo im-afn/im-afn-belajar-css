@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+div {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #000;
+}
+
+.block {
+  display: block;
+  background-color: lightblue;
+}
+
+.inline {
+  display: inline;
+  background-color: lightgreen;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: lightcoral;
+}
+
+.flex {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  justify-content: space-around;
+}
+
+.flex div {
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+}
+
+.inline-flex {
+  display: inline-flex;
+  background-color: lightseagreen;
+  justify-content: space-around;
+}
+
+.inline-flex div {
+  width: 50px;
+  height: 50px;
+  background-color: lightpink;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: lightgray;
+}
+
+.grid div {
+  background-color: cornflowerblue;
+  padding: 20px;
+}
+
+.inline-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: lavender;
+}
+
+.inline-grid div {
+  background-color: lightcyan;
+  padding: 20px;
+}
+
+.table {
+  display: table;
+  background-color: lightcoral;
+}
+
+.inline-table {
+  display: inline-table;
+  background-color: lightyellow;
+}
+
+.table-row {
+  display: table-row;
+  background-color: lightgreen;
+}
+
+.table-cell {
+  display: table-cell;
+  background-color: lightpink;
+}
+
+.table-column {
+  display: table-column;
+  background-color: lightblue;
+}
+
+.table-column-group {
+  display: table-column-group;
+  background-color: lightgoldenrodyellow;
+}
+
+.table-row-group {
+  display: table-row-group;
+  background-color: lightcyan;
+}
+
+.table-header-group {
+  display: table-header-group;
+  background-color: lightseagreen;
+}
+
+.table-footer-group {
+  display: table-footer-group;
+  background-color: lightgray;
+}
+
+.list-item {
+  display: list-item;
+  background-color: lightcoral;
+}
+
+.run-in {
+  display: run-in;
+  background-color: lightyellow;
+}
+
+.none {
+  display: none;
+  background-color: lightpink;
+}
+
+.contents {
+  display: contents;
+}
+
+.contents span {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 5px;
+}

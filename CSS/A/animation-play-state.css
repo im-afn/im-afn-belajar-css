@@ -1,0 +1,37 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  animation: slide 2s infinite alternate;
+  animation-play-state: running;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  animation: slide 2s infinite alternate;
+  animation-play-state: paused;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  animation: slide 2s infinite alternate;
+  animation-play-state: paused;
+}
+
+.box:hover {
+  animation-play-state: running;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(200px);
+  }
+}

@@ -1,0 +1,29 @@
+.emphasis-filled {
+  text-emphasis: filled;
+  text-emphasis-color: red;
+  /* Simbol berisi merah */
+}
+
+.emphasis-open {
+  text-emphasis: open;
+  text-emphasis-color: blue;
+  /* Simbol terbuka biru */
+}
+
+.emphasis-dot {
+  text-emphasis: dot;
+  text-emphasis-color: green;
+  /* Simbol titik hijau */
+}
+
+.emphasis-circle {
+  text-emphasis: circle;
+  text-emphasis-color: purple;
+  /* Simbol lingkaran ungu */
+}
+
+.emphasis-square {
+  text-emphasis: square;
+  text-emphasis-color: orange;
+  /* Simbol kotak oranye */
+}

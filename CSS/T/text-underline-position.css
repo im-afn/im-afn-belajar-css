@@ -1,0 +1,18 @@
+.underline-auto {
+  text-decoration: underline;
+  text-underline-position: auto;
+  /* Menempatkan garis bawah secara otomatis */
+}
+
+.underline-under {
+  text-decoration: underline;
+  text-underline-position: under;
+  /* Menempatkan garis bawah di bawah teks */
+}
+
+.vertical-underline {
+  writing-mode: vertical-rl;
+  text-decoration: underline;
+  text-underline-position: right;
+  /* Menempatkan garis bawah di sebelah kanan teks vertikal */
+}

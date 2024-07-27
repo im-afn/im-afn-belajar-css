@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  border: 2px solid #000;
+  padding: 10px;
+  height: 200px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+.item1 {
+  flex-basis: 100px;
+}
+
+.item2 {
+  flex-basis: 200px;
+}
+
+.item3 {
+  flex-basis: 300px;
+}
+
+.container1 {
+  display: flex;
+  border: 2px solid #000;
+  padding: 10px;
+  height: 200px;
+}
+
+.itemm {
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+}
+
+.item11 {
+  flex-basis: auto;
+}
+
+.item22 {
+  flex-basis: auto;
+}
+
+.item33 {
+  flex-basis: auto;
+}

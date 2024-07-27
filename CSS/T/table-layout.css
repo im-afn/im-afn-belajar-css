@@ -1,0 +1,20 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.auto-layout {
+  table-layout: auto;
+  /* Nilai default */
+}
+
+.fixed-layout {
+  table-layout: fixed;
+}

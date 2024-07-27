@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.box-absolute {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  right: 10px;
+  /* 10px from the right edge of the container */
+  top: 20px;
+  /* 20px from the top edge of the container */
+}
+
+.box-relative {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  right: 10px;
+  /* Moves the box 10px to the left from its normal position */
+}

@@ -1,0 +1,9 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1.2em;
+  outline: 4px solid #f39c12;
+  /* Garis luar dengan ketebalan 4px dan warna oranye */
+}

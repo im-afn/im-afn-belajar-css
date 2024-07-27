@@ -1,0 +1,27 @@
+.thin-border {
+  border: 2px solid black;
+  border-block-end-width: thin;
+  padding: 20px;
+  margin: 20px;
+}
+
+.medium-border {
+  border: 2px solid black;
+  border-block-end-width: medium;
+  padding: 20px;
+  margin: 20px;
+}
+
+.thick-border {
+  border: 2px solid black;
+  border-block-end-width: thick;
+  padding: 20px;
+  margin: 20px;
+}
+
+.custom-border {
+  border: 2px solid black;
+  border-block-end-width: 10px;
+  padding: 20px;
+  margin: 20px;
+}

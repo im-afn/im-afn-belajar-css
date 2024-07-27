@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.contoh1 {
+  border-inline-start: 5px solid red;
+}
+
+.contoh2 {
+  border-inline-start: 10px dashed;
+  border-inline-start-color: blue;
+}
+
+.contoh3 {
+  border-inline-start: 3px;
+  border-inline-start-color: green;
+  border-inline-start-style: solid;
+}
+
+.contoh4 {
+  border-inline-start: dashed;
+  border-inline-start-width: 2px;
+  border-inline-start-color: blue;
+}
+
+.contoh5 {
+  border-inline-start-style: dotted;
+  border-inline-start-width: 4px;
+  border-inline-start-color: purple;
+}

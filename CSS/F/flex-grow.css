@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  border: 2px solid #000;
+  padding: 10px;
+  height: 100px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  width: 50px;
+}
+
+.item1 {
+  flex-grow: 1;
+}
+
+.item2 {
+  flex-grow: 2;
+}
+
+.item3 {
+  flex-grow: 3;
+}

@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+  border-inline-end-width: 5px;
+  border-inline-end-color: black;
+}
+
+.contoh1 {
+  border-inline-end-style: solid;
+}
+
+.contoh2 {
+  border-inline-end-style: dashed;
+}
+
+.contoh3 {
+  border-inline-end-style: dotted;
+}
+
+.contoh4 {
+  border-inline-end-style: double;
+}
+
+.contoh5 {
+  border-inline-end-style: groove;
+}
+
+.contoh6 {
+  border-inline-end-style: ridge;
+}
+
+.contoh7 {
+  border-inline-end-style: inset;
+}
+
+.contoh8 {
+  border-inline-end-style: outset;
+}

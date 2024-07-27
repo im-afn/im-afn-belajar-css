@@ -1,0 +1,21 @@
+.multi-column {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.span-none {
+  column-span: none;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.multi-column1 {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.span-all {
+  column-span: all;
+  background-color: #f0f0f0;
+  padding: 10px;
+}

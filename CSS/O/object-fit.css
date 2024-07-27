@@ -1,0 +1,16 @@
+.container {
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  /* Mengatur kontainer agar gambar yang lebih besar dipotong */
+}
+
+.container img {
+  width: 100%;
+  /* Mengisi lebar kontainer */
+  height: 100%;
+  /* Mengisi tinggi kontainer */
+  object-fit: cover;
+  /* Menggunakan properti object-fit */
+}

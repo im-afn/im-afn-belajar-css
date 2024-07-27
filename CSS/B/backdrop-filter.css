@@ -1,0 +1,140 @@
+body {
+  background: url(../../Gambar/yuri-krupenin.jpg) no-repeat center center fixed;
+  /* Ganti URL dengan link gambar Anda */
+  background-size: cover;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  background: beige;
+}
+
+.backdrop1 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop2 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: brightness(0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop3 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: contrast(2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop4 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: grayscale(1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop5 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: hue-rotate(90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop6 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: invert(1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop7 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: opacity(0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop8 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: saturate(2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop9 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: sepia(1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.backdrop10 {
+  width: 300px;
+  height: 200px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: url(filters.svg#filter-id);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+}

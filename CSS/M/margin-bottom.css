@@ -1,0 +1,18 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100px;
+  background-color: lightcoral;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-bottom: 10%;
+}

@@ -1,0 +1,31 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+@keyframes gerak {
+  0% {
+    transform: translateX(0);
+    background-color: red;
+  }
+
+  100% {
+    transform: translateX(200px);
+    background-color: blue;
+  }
+}
+
+.once {
+  animation: gerak 2s;
+  animation-iteration-count: 1;
+}
+
+.thrice {
+  animation: gerak 2s;
+  animation-iteration-count: 3;
+}
+
+.infinite {
+  animation: gerak 2s infinite;
+}

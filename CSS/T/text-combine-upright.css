@@ -1,0 +1,25 @@
+body {
+  writing-mode: vertical-rl;
+  /* Mengatur teks menjadi vertikal */
+  font-family: sans-serif;
+}
+
+.none {
+  text-combine-upright: none;
+  /* Nilai default, tidak mengkombinasikan karakter */
+}
+
+.all {
+  text-combine-upright: all;
+  /* Mengkombinasikan semua karakter dalam elemen */
+}
+
+.digits-2 {
+  text-combine-upright: digits 2;
+  /* Mengkombinasikan hingga 2 digit angka */
+}
+
+.digits-4 {
+  text-combine-upright: digits 4;
+  /* Mengkombinasikan hingga 4 digit angka */
+}

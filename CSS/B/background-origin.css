@@ -1,0 +1,22 @@
+.box {
+  width: 300px;
+  height: 200px;
+  border: 20px dashed black;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-image: url('../../Gambar/abstract.jpg');
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+}
+
+.border-box {
+  background-origin: border-box;
+}
+
+.padding-box {
+  background-origin: padding-box;
+}
+
+.content-box {
+  background-origin: content-box;
+}

@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  /* Tinggi penuh viewport */
+  overflow: hidden;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  overflow-y: scroll;
+  /* Mengizinkan pengguliran vertikal */
+  border: 1px solid #ccc;
+  scrollbar-color: #f06 #e0e0e0;
+  /* Warna scrollbar: thumb merah, track abu-abu */
+}
+
+.content {
+  height: 600px;
+  /* Konten yang lebih tinggi dari kontainer untuk memungkinkan pengguliran */
+  background: linear-gradient(45deg, #f06, yellow);
+}

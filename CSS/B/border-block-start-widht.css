@@ -1,0 +1,41 @@
+.example {
+  width: 200px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.example1 {
+  border-block-start-width: 2px;
+}
+
+.example2 {
+  border-block-start-width: 4px;
+}
+
+.example3 {
+  border-block-start-width: 6px;
+}
+
+.example1 {
+  width: 200px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.example11 {
+  border-block-start-width: thin;
+}
+
+.example22 {
+  border-block-start-width: medium;
+}
+
+.example33 {
+  border-block-start-width: thick;
+}

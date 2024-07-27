@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px;
+  border-style: solid;
+  border-inline-start-width: 5px;
+}
+
+.contoh1 {
+  border-inline-start-color: red;
+}
+
+.contoh2 {
+  border-inline-start-color: blue;
+}
+
+.contoh3 {
+  border-inline-start-color: green;
+}
+
+.contoh4 {
+  border-inline-start-color: orange;
+}
+
+.contoh5 {
+  border-inline-start-color: purple;
+}
+
+.contoh6 {
+  border-inline-start-color: black;
+}

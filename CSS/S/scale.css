@@ -1,0 +1,23 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 50px;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.scale-1-5 {
+  transform: scale(1.5);
+  /* Menskalakan elemen 1.5 kali lebih besar pada kedua sumbu X dan Y */
+}
+
+.scale-2-0-5 {
+  transform: scale(2, 0.5);
+  /* Menskalakan elemen 2 kali lebih besar pada sumbu X dan 0.5 kali pada sumbu Y */
+}
+
+.box:hover {
+  transform: scale(1.2);
+  /* Menskalakan elemen 1.2 kali lebih besar saat di-hover */
+}

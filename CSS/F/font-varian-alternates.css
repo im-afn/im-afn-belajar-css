@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'ExampleFont';
+  src: url('path/to/ExampleFont.woff2') format('woff2');
+  font-feature-settings: 'hist', 'ss01';
+}
+
+.text-example {
+  font-family: 'ExampleFont', Arial, sans-serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.normal {
+  font-variant-alternates: normal;
+}
+
+.historical-forms {
+  font-variant-alternates: historical-forms;
+}
+
+.stylistic {
+  font-variant-alternates: stylistic(1);
+}

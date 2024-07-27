@@ -1,0 +1,31 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-block-start: 20px;
+}
+
+.container {
+  width: 100px;
+  background-color: lightcoral;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-block-start: 10%;
+}
+
+.bluediv {
+  width: 200px;
+  background-color: rgba(182, 215, 229, 0.6);
+  border: solid black 1px;
+  margin-block-start: 30px;
+}
+
+.reddiv {
+  width: 200px;
+  background-color: rgba(239, 135, 88, 0.6);
+  text-align: center;
+}

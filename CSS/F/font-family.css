@@ -1,0 +1,29 @@
+.font-example {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.font-example h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  color: #333;
+}
+
+.font-example p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.font-example ul {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #888;
+}
+
+.font-example li {
+  margin-bottom: 10px;
+}

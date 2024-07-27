@@ -1,0 +1,24 @@
+.transform-none {
+  text-transform: none;
+  /* Tidak ada transformasi */
+}
+
+.transform-capitalize {
+  text-transform: capitalize;
+  /* Mengubah huruf pertama dari setiap kata menjadi huruf kapital */
+}
+
+.transform-uppercase {
+  text-transform: uppercase;
+  /* Mengubah semua huruf menjadi huruf kapital */
+}
+
+.transform-lowercase {
+  text-transform: lowercase;
+  /* Mengubah semua huruf menjadi huruf kecil */
+}
+
+.transform-full-width {
+  text-transform: full-width;
+  /* Mengubah semua karakter ke bentuk full-width */
+}

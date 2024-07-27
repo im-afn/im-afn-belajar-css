@@ -1,0 +1,12 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: background-color 0.5s ease 0.5s;
+  /* Menentukan transisi dengan delay */
+}
+
+.box:hover {
+  background-color: red;
+  /* Warna berubah saat hover */
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>animation-fill-mode</title>
+  <link rel="stylesheet" href="../../CSS/A/animation-fill-mode.css">
+</head>
+
+<body>
+
+  <h1>animation-fill-mode</h1>
+
+  <p>
+    Properti CSS animation-fill-mode mengontrol perilaku elemen sebelum dan setelah animasi berjalan. Ini memungkinkan
+    Anda untuk menentukan bagaimana nilai dari kunci animasi (@keyframes) harus diterapkan sebelum dan setelah animasi
+    berlangsung.
+  </p>
+
+  <p><b>animation-fill-mode: none|forwards|backwards|both|initial|inherit;</b></p>
+
+  <p>
+    <b>none:</b>
+    <br>
+    Sebelum animasi dimulai, elemen akan berada dalam keadaan awal seperti tidak ada animasi yang diterapkan. Setelah
+    animasi selesai, elemen akan kembali ke keadaan awal seperti sebelum animasi dimulai.
+  </p>
+
+  <p>
+    <b>forwards:</b>
+    <br>
+    Sebelum animasi dimulai, elemen akan memiliki nilai dari frame terakhir animasi (100%). Setelah animasi selesai,
+    elemen akan tetap dalam keadaan terakhir animasi (100%).
+  </p>
+
+  <p>
+    <b>backwards:</b>
+    <br>
+    Sebelum animasi dimulai, elemen akan memiliki nilai dari frame pertama animasi (0%). Setelah animasi selesai, elemen
+    akan kembali ke keadaan awal seperti sebelum animasi dimulai.
+  </p>
+
+  <p>
+    <b> both:</b>
+    <br>
+    Kombinasi dari forwards dan backwards. <br>
+    Sebelum animasi dimulai, elemen akan memiliki nilai dari frame pertama animasi (0%). Setelah animasi selesai, elemen
+    akan tetap dalam keadaan terakhir animasi (100%).
+  </p>
+
+  <hr>
+
+  <p>
+    <b> none:</b>
+    <br>
+    Sebelum animasi: Elemen berada dalam keadaan awalnya. <br>
+    Selama animasi: Elemen akan bergerak dan berubah warna. <br>
+    Setelah animasi: Elemen kembali ke keadaan awal (posisi dan warna sebelum animasi).
+  </p>
+
+  <p>
+    <b> forwards:</b>
+    <br>
+    Sebelum animasi: Elemen berada dalam keadaan awalnya. <br>
+    Selama animasi: Elemen akan bergerak dan berubah warna. <br>
+    Setelah animasi: Elemen mempertahankan nilai dari frame terakhir (posisi dan warna akhir).
+  </p>
+
+  <p>
+    <b> backwards:</b>
+    <br>
+    Sebelum animasi: Elemen segera mengambil nilai dari frame pertama (posisi dan warna awal animasi). <br>
+    Selama animasi: Elemen akan bergerak dan berubah warna. <br>
+    Setelah animasi: Elemen kembali ke keadaan awal (posisi dan warna sebelum animasi).
+  </p>
+
+  <p>
+    <b>both:</b>
+    <br>
+    Sebelum animasi: Elemen segera mengambil nilai dari frame pertama (posisi dan warna awal animasi). <br>
+    Selama animasi: Elemen akan bergerak dan berubah warna. <br>
+    Setelah animasi: Elemen mempertahankan nilai dari frame terakhir (posisi dan warna akhir).
+  </p>
+
+  <div class="kotak none">None</div>
+  <div class="kotak forwards">Forwards</div>
+  <div class="kotak backwards">Backwards</div>
+  <div class="kotak both">Both</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.default {
+  text-decoration: underline;
+  text-decoration-thickness: auto;
+  /* Ketebalan default */
+}
+
+.thick {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  /* Garis bawah tebal */
+}
+
+.thin {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  /* Garis bawah tipis */
+}
+
+.custom {
+  text-decoration: overline;
+  text-decoration-thickness: 3px;
+  /* Garis di atas dengan ketebalan khusus */
+}

@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.horizontal-tb {
+  writing-mode: horizontal-tb;
+  background-color: lightblue;
+}
+
+.vertical-rl {
+  writing-mode: vertical-rl;
+  background-color: lightgreen;
+}
+
+.vertical-lr {
+  writing-mode: vertical-lr;
+  background-color: lightcoral;
+}
+
+.sideways-rl {
+  writing-mode: sideways-rl;
+  background-color: lightyellow;
+}
+
+.sideways-lr {
+  writing-mode: sideways-lr;
+  background-color: lightgrey;
+}

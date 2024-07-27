@@ -1,0 +1,23 @@
+.box1 {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  padding-left: 20px;
+  /* Padding 20px di sisi kiri */
+}
+
+.box2 {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  padding-left: 10%;
+  /* Padding 10% dari lebar elemen di sisi kiri */
+}
+
+.box3 {
+  width: 200px;
+  height: 100px;
+  background-color: lightcoral;
+  padding-left: inherit;
+  /* Menginherit nilai dari elemen induk */
+}

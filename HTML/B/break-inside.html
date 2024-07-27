@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>break-inside</title>
+  <link rel="stylesheet" href="../../CSS/B/break-inside.css">
+</head>
+
+<body>
+
+  <h1>break-inside</h1>
+
+  <p>
+    Properti break-inside dalam CSS digunakan untuk mengontrol bagaimana jeda (break) harus berlaku di dalam elemen
+    blok, kolom, atau halaman. Properti ini dapat mencegah jeda yang tidak diinginkan dalam elemen yang terjepit dalam
+    konteks cetakan, multi-kolom, atau tata letak halaman.
+  </p>
+
+  <div class="container">
+    <div class="box break-auto">
+      <p><strong>break-inside: auto</strong></p>
+      <p>Content 1 - This is an example of break-inside: auto. The content will break normally according to column or
+        page breaks.</p>
+      <p>Content 2</p>
+      <p>Content 3</p>
+      <p>Content 4</p>
+    </div>
+
+    <div class="box break-avoid">
+      <p><strong>break-inside: avoid</strong></p>
+      <p>Content 1 - This is an example of break-inside: avoid. The content will try to avoid breaking inside this
+        container.</p>
+      <p>Content 2</p>
+      <p>Content 3</p>
+      <p>Content 4</p>
+    </div>
+
+    <div class="box break-avoid-page">
+      <p><strong>break-inside: avoid-page</strong></p>
+      <p>Content 1 - This is an example of break-inside: avoid-page. The content will try to avoid page breaks inside
+        this container.</p>
+      <p>Content 2</p>
+      <p>Content 3</p>
+      <p>Content 4</p>
+    </div>
+
+    <div class="box break-avoid-column">
+      <p><strong>break-inside: avoid-column</strong></p>
+      <p>Content 1 - This is an example of break-inside: avoid-column. The content will try to avoid column breaks
+        inside this container.</p>
+      <p>Content 2</p>
+      <p>Content 3</p>
+      <p>Content 4</p>
+    </div>
+  </div>
+
+  <h2>Contoh Page Break</h2>
+
+  <div class="page-container">
+    <div class="page">
+      <p><strong>Page 1</strong></p>
+      <p>This is an example of using page-break-inside: avoid. The content in this container will try to avoid breaking
+        inside the container when printing.</p>
+    </div>
+    <div class="page">
+      <p><strong>Page 2</strong></p>
+      <p>This is another example of using page-break-inside: avoid.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

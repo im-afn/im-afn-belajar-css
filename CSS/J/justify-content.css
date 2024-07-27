@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightgray;
+  height: 100px;
+}
+
+.item {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 10px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  height: 100px;
+}
+
+.item1 {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 10px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  height: 100px;
+}
+
+.item2 {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 10px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  height: 100px;
+}
+
+.item3 {
+  background-color: lightblue;
+  margin: 5px;
+  padding: 10px;
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5 {
+  height: 150px;
+  background-color: #62bea0;
+  display: flex;
+}
+
+#myDIV div {
+  width: 80px;
+  height: 80px;
+}
+
+#myDIV1 div {
+  width: 80px;
+  height: 80px;
+}
+
+#myDIV2 div {
+  width: 80px;
+  height: 80px;
+}
+
+#myDIV3 div {
+  width: 80px;
+  height: 80px;
+}
+
+#myDIV4 div {
+  width: 80px;
+  height: 80px;
+}
+
+#myDIV5 div {
+  width: 80px;
+  height: 80px;
+}
+
+#myDIV {
+  justify-content: flex-start;
+}
+
+#myDIV1 {
+  justify-content: flex-end;
+}
+
+#myDIV2 {
+  justify-content: center;
+}
+
+#myDIV3 {
+  justify-content: space-between;
+}
+
+#myDIV4 {
+  justify-content: space-around;
+}
+
+#myDIV5 {
+  justify-content: space-evenly;
+}

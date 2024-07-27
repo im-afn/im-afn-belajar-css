@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex-wrap</title>
+  <link rel="stylesheet" href="../../CSS/F/flex-wrap.css">
+</head>
+
+<body>
+
+  <h1>flex-wrap</h1>
+
+  <p>
+    Properti flex-wrap dalam CSS digunakan untuk menentukan apakah elemen-elemen flex item dalam sebuah flex container
+    akan dibungkus ke baris atau kolom berikutnya jika tidak cukup ruang untuk menampung semua elemen dalam satu baris
+    atau kolom.
+  </p>
+
+  <ul>
+    <li><b>nowrap</b>: Elemen-elemen flex item akan ditampilkan dalam satu baris atau satu kolom tanpa pembungkusan
+      (default).
+    </li>
+    <li><b>wrap</b>: Elemen-elemen flex item akan dibungkus ke baris atau kolom berikutnya jika tidak cukup ruang.</li>
+    <li><b>wrap-reverse</b>: Elemen-elemen flex item akan dibungkus ke baris atau kolom berikutnya secara terbalik (dari
+      bawah
+      ke atas atau dari kanan ke kiri, tergantung pada arah utama yang ditentukan).</li>
+  </ul>
+
+  <h2>Flex-wrap: nowrap (default)</h2>
+  <div class="container nowrap">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+  </div>
+
+  <h2>Flex-wrap: wrap</h2>
+  <div class="container wrap">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+  </div>
+
+  <h2>Flex-wrap: wrap-reverse</h2>
+  <div class="container wrap-reverse">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+  </div>
+
+</body>
+
+</html>

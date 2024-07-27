@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/mycustomfont.woff2') format('woff2'),
+    url('fonts/mycustomfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.custom-font-example {
+  font-family: 'MyCustomFont', Arial, sans-serif;
+  padding: 20px;
+}
+
+.custom-font-example h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.custom-font-example p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}

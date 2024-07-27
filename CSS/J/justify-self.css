@@ -1,0 +1,169 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px;
+  gap: 10px;
+  background-color: lightgray;
+}
+
+.item1 {
+  background-color: lightblue;
+  justify-self: start;
+}
+
+.item2 {
+  background-color: lightgreen;
+  justify-self: end;
+}
+
+.item3 {
+  background-color: lightcoral;
+  justify-self: center;
+}
+
+.item4 {
+  background-color: lightgoldenrodyellow;
+  justify-self: stretch;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  height: 200px;
+}
+
+.item11 {
+  background-color: lightblue;
+  align-self: flex-start;
+}
+
+.item21 {
+  background-color: lightgreen;
+  align-self: flex-end;
+}
+
+.item31 {
+  background-color: lightcoral;
+  align-self: center;
+}
+
+.item41 {
+  background-color: lightgoldenrodyellow;
+  align-self: stretch;
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6,
+#myDIV7,
+#myDIV8,
+#myDIV9,
+#myDIV10,
+#myDIV11 {
+  height: 300px;
+  background-color: #6666c6;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#myDIV div {
+  height: 50%;
+}
+
+#myDIV1 div {
+  height: 50%;
+}
+
+#myDIV2 div {
+  height: 50%;
+}
+
+#myDIV3 div {
+  height: 50%;
+}
+
+#myDIV4 div {
+  height: 50%;
+}
+
+#myDIV5 div {
+  height: 50%;
+}
+
+#myDIV6 div {
+  height: 50%;
+}
+
+#myDIV7 div {
+  height: 50%;
+}
+
+#myDIV8 div {
+  height: 50%;
+}
+
+#myDIV9 div {
+  height: 50%;
+}
+
+#myDIV10 div {
+  height: 50%;
+}
+
+#myDIV11 div {
+  height: 50%;
+}
+
+
+#blueDiv {
+  justify-self: auto;
+}
+
+#blueDiv1 {
+  justify-self: left;
+}
+
+#blueDiv2 {
+  justify-self: stretch;
+}
+
+#blueDiv3 {
+  justify-self: right;
+}
+
+#blueDiv4 {
+  justify-self: normal;
+}
+
+#blueDiv5 {
+  justify-self: center;
+}
+
+#blueDiv6 {
+  justify-self: start;
+}
+
+#blueDiv7 {
+  justify-self: end;
+}
+
+#blueDiv8 {
+  justify-self: center;
+}
+
+#blueDiv9 {
+  justify-self: flex-end;
+}
+
+#blueDiv10 {
+  justify-self: flex-start;
+}
+
+#blueDiv11 {
+  justify-self: last baseline;
+}

@@ -1,0 +1,27 @@
+.text {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.example1 {
+  font-feature-settings: "liga" 1;
+  /* Aktifkan ligature */
+}
+
+.text-example {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.text-example h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  font-feature-settings: "liga" 1, "onum" 0;
+  /* Aktifkan ligature, non-proporsional angka */
+}

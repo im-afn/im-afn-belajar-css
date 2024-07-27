@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+
+.text-example {
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.stretch-ultra-condensed {
+  font-stretch: ultra-condensed;
+}
+
+.stretch-extra-condensed {
+  font-stretch: extra-condensed;
+}
+
+.stretch-condensed {
+  font-stretch: condensed;
+}
+
+.stretch-semi-condensed {
+  font-stretch: semi-condensed;
+}
+
+.stretch-normal {
+  font-stretch: normal;
+}
+
+.stretch-semi-expanded {
+  font-stretch: semi-expanded;
+}
+
+.stretch-expanded {
+  font-stretch: expanded;
+}
+
+.stretch-extra-expanded {
+  font-stretch: extra-expanded;
+}
+
+.stretch-ultra-expanded {
+  font-stretch: ultra-expanded;
+}

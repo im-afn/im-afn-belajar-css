@@ -1,0 +1,7 @@
+.x {
+  width: 200px;
+  hyphens: auto;
+  hyphenate-character: "+";
+  /* Menggunakan tanda hubung */
+  border: 1px solid black;
+}

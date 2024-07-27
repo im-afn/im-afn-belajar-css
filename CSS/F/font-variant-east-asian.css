@@ -1,0 +1,32 @@
+.text-example {
+  font-family: "Hiragino Sans", "Noto Sans CJK SC", sans-serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.normal {
+  font-variant-east-asian: normal;
+}
+
+.full-width {
+  font-variant-east-asian: full-width;
+}
+
+.proportional-width {
+  font-variant-east-asian: proportional-width;
+}
+
+.simplified {
+  font-variant-east-asian: simplified;
+}
+
+.traditional {
+  font-variant-east-asian: traditional;
+}

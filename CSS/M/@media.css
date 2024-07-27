@@ -1,0 +1,20 @@
+/* Aturan gaya untuk layar umum */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Aturan gaya untuk layar lebar */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #f0f0f0;
+  }
+}
+
+/* Aturan gaya untuk layar sempit */
+@media screen and (max-width: 767px) {
+  body {
+    background-color: lightblue;
+  }
+}

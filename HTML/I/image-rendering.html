@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>image-rendering</title>
+  <link rel="stylesheet" href="../../CSS/I/image-rendering.css">
+</head>
+
+<body>
+
+  <h1>image-rendering</h1>
+
+  <p>
+    Properti image-rendering dalam CSS digunakan untuk mengontrol bagaimana browser melakukan rendering atau penyesuaian
+    gambar ketika ukurannya diubah. Properti ini sangat berguna untuk gambar yang ukurannya diubah (di-resize) dan Anda
+    ingin menjaga kualitas tampilan yang spesifik, misalnya untuk pixel art atau gambar dengan detail yang penting.
+  </p>
+
+  <ul>
+    <li><b>auto</b>: Membiarkan browser memilih metode rendering secara otomatis.</li>
+    <li><b>smooth</b>: Membuat gambar terlihat halus saat di-resize (nilai ini setara dengan auto dan tidak lagi
+      digunakan dalam standar terbaru).</li>
+    <li><b>high-quality</b>: Menggunakan metode rendering kualitas tinggi (ini adalah nilai tidak standar dan sebaiknya
+      tidak digunakan).</li>
+    <li><b>crisp-edges</b>: Menggunakan metode rendering yang menjaga tepi gambar tetap tajam dan tidak buram. Berguna
+      untuk gambar vektor atau pixel art.</li>
+    <li><b>pixelated</b>: Menjaga piksel gambar saat di-resize, memberikan tampilan pixelated. Berguna untuk pixel art
+      dan gambar bergaya retro.</li>
+  </ul>
+
+  <img class="auto" src="../../Gambar/smiley.gif" alt="Auto Rendering">
+  <br>
+  <img class="crisp-edges" src="../../Gambar/smiley.gif" alt="Crisp Edges Rendering">
+  <br>
+  <img class="pixelated" src="../../Gambar/smiley.gif" alt="Pixelated Rendering">
+
+
+</body>
+
+</html>

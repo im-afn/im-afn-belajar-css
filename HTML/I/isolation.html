@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>isolation</title>
+  <link rel="stylesheet" href="../../CSS/I/isolation.css">
+</head>
+
+<body>
+
+  <h1>isolation</h1>
+
+  <p>
+    Properti isolation dalam CSS digunakan untuk menentukan apakah elemen harus membuat konteks tumpukan baru. Ini
+    mempengaruhi cara elemen tersebut berinteraksi dengan elemen lain dalam hal tumpukan z-order.
+  </p>
+
+  <div class="container">
+    <div class="box1">Box 1</div>
+    <div class="box2 isolated">Box 2</div>
+  </div>
+  <br><br><br>
+  <div class="container1">
+    <div class="box11">Box 1</div>
+    <div class="box22">Box 2</div>
+  </div>
+
+  <br><br><br>
+  <div id="b" class="a">
+    <div id="d">
+      <div class="a c">div d: isolation: auto;</div>
+    </div>
+    <div id="e">
+      <div class="a c">div e: isolation: isolate;</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.resizable {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  resize: both;
+  /* Allows resizing both horizontally and vertically */
+}
+
+.non-resizable {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+  resize: none;
+  /* Disallows resizing */
+}

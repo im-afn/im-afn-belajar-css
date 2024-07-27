@@ -1,0 +1,161 @@
+.grid-containern {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  /* Tiga kolom dengan lebar 100px */
+  grid-template-rows: 100px 100px 100px;
+  /* Tiga baris dengan tinggi 100px */
+  gap: 10px;
+}
+
+.grid-itemn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.item1n {
+  grid-row-start: 1;
+  /* Dimulai dari baris 1 */
+  grid-row-end: 3;
+  /* Berakhir pada baris 3 */
+}
+
+.item2n {
+  grid-row-start: 2;
+  /* Dimulai dari baris 2 */
+  grid-row-end: 4;
+  /* Berakhir pada baris 4 */
+}
+
+.item3n {
+  grid-row-start: 1;
+  /* Dimulai dari baris 1 */
+  grid-row-end: 4;
+  /* Berakhir pada baris 4 */
+}
+
+.grid-container1m {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  /* Tiga kolom dengan lebar 100px */
+  grid-template-rows: 100px 100px 100px;
+  /* Tiga baris dengan tinggi 100px */
+  gap: 10px;
+}
+
+.grid-item1m {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.item11m {
+  grid-row-start: 1;
+  /* Dimulai dari baris 1 */
+  grid-row-end: span 2;
+  /* Menempati dua baris dari garis 1 */
+}
+
+.item22m {
+  grid-row-start: 2;
+  /* Dimulai dari baris 2 */
+  grid-row-end: span 2;
+  /* Menempati dua baris dari garis 2 */
+}
+
+.item33m {
+  grid-row-start: 1;
+  /* Dimulai dari baris 1 */
+  grid-row-end: span 3;
+  /* Menempati tiga baris dari garis 1 */
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV1 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV2 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV3 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV4 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV5 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV6 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item112 {
+  grid-row-end: auto;
+}
+
+.item1123 {
+  grid-row-end: span 2;
+}
+
+.item11234 {
+  grid-row-end: span 3;
+}
+
+.item112345 {
+  grid-row-end: 2;
+}
+
+.item1123456 {
+  grid-row-end: 3;
+}
+
+.item11234567 {
+  grid-row-end: 4;
+}

@@ -1,0 +1,110 @@
+.grid-container {
+  display: grid;
+  grid:
+    "item1 item1 item2 item2"
+    "item3 item3 item4 item4"
+    "item5 item5 item6 item6"
+    / 1fr 1fr 1fr 1fr;
+  /* Menentukan kolom dengan lebar yang sama */
+  gap: 10px;
+  /* Menentukan jarak antara elemen grid */
+}
+
+.grid-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.item1 {
+  grid-area: item1;
+}
+
+.item2 {
+  grid-area: item2;
+}
+
+.item3 {
+  grid-area: item3;
+}
+
+.item4 {
+  grid-area: item4;
+}
+
+.item5 {
+  grid-area: item5;
+}
+
+.item6 {
+  grid-area: item6;
+}
+
+#myDIV {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid: 100px / auto auto auto;
+}
+
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV1 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid: auto / auto auto auto;
+}
+
+#myDIV1 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV2 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid: auto / auto auto;
+}
+
+#myDIV2 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV3 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  grid: 80px 120px / auto auto auto;
+}
+
+#myDIV3 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

@@ -1,0 +1,34 @@
+/* css dari gpt */
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #ff6347;
+
+  /* tomato color */
+}
+
+input[type="range"] {
+  accent-color: #4caf50;
+  /* green */
+}
+
+progress {
+  accent-color: #2196f3;
+  /* blue */
+}
+
+/* css dari w3school */
+input[type=checkbox] {
+  accent-color: red;
+}
+
+input[type=radio] {
+  accent-color: green;
+}
+
+input[type=range] {
+  accent-color: rgb(0, 0, 255);
+}
+
+progress {
+  accent-color: hsl(39, 100%, 50%);
+}

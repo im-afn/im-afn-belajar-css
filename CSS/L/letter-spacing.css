@@ -1,0 +1,19 @@
+.normal-spacing {
+  letter-spacing: normal;
+}
+
+.wide-spacing {
+  letter-spacing: 5px;
+}
+
+.narrow-spacing {
+  letter-spacing: -2px;
+}
+
+.spacing-em {
+  letter-spacing: 0.2em;
+}
+
+.spacing-rem {
+  letter-spacing: 0.3rem;
+}

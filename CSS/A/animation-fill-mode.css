@@ -1,0 +1,34 @@
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+@keyframes gerak {
+  0% {
+    transform: translateX(0);
+    background-color: red;
+  }
+
+  100% {
+    transform: translateX(200px);
+    background-color: blue;
+  }
+}
+
+.none {
+  animation: gerak 5s;
+  animation-fill-mode: none;
+}
+
+.forwards {
+  animation: gerak 5s forwards;
+}
+
+.backwards {
+  animation: gerak 5s backwards;
+}
+
+.both {
+  animation: gerak 5s both;
+}

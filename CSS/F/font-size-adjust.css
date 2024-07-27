@@ -1,0 +1,28 @@
+.text-example {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.adjust-none {
+  font-family: "Times New Roman", serif;
+  font-size-adjust: none;
+}
+
+.adjust-0-5 {
+  font-family: "Times New Roman", serif;
+  font-size-adjust: 0.5;
+}
+
+.adjust-0-75 {
+  font-family: "Times New Roman", serif;
+  font-size-adjust: 0.75;
+}

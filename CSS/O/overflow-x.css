@@ -1,0 +1,18 @@
+.container {
+  width: 200px;
+  /* Lebar kontainer */
+  height: 100px;
+  /* Tinggi kontainer */
+  border: 1px solid #ccc;
+  /* Garis pinggir */
+}
+
+.horizontal-scroll {
+  overflow-x: scroll;
+  /* Aktifkan scrollbar horizontal */
+}
+
+.hidden-overflow {
+  overflow-x: hidden;
+  /* Sembunyikan konten yang melebihi batas horizontal */
+}

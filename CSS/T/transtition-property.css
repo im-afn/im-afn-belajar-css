@@ -1,0 +1,16 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition-property: background-color, transform;
+  /* Menentukan properti yang akan ditransisikan */
+  transition-duration: 0.5s;
+  /* Durasi transisi */
+}
+
+.box:hover {
+  background-color: red;
+  /* Warna berubah saat hover */
+  transform: scale(1.2);
+  /* Menskalakan saat hover */
+}

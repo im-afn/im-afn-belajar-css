@@ -1,0 +1,27 @@
+body {
+  counter-reset: section;
+  /* Inisialisasi penghitung section ke 0 */
+}
+
+.section {
+  counter-reset: item;
+  /* Inisialisasi penghitung item ke 0 untuk setiap section */
+}
+
+.section h2::before {
+  counter-increment: section;
+  /* Meningkatkan penghitung section */
+  content: "Section " counter(section) ": ";
+}
+
+.section li::before {
+  counter-increment: item;
+  /* Meningkatkan penghitung item */
+  content: counter(section) "." counter(item) " ";
+  /* Contoh: 1.1, 1.2, 2.1, 2.2 */
+}
+
+.section:nth-of-type(3) {
+  counter-set: section 5;
+  /* Mengatur nilai penghitung section ke 5 untuk section ketiga */
+}

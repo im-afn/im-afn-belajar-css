@@ -1,0 +1,41 @@
+.normal {
+  white-space: normal;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.nowrap {
+  white-space: nowrap;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pre {
+  white-space: pre;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pre-line {
+  white-space: pre-line;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.break-spaces {
+  white-space: break-spaces;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}

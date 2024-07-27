@@ -1,0 +1,18 @@
+.auto-break {
+  line-break: auto;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.strict-break {
+  line-break: strict;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.anywhere-break {
+  line-break: anywhere;
+  width: 200px;
+  border: 1px solid black;
+  word-break: break-all;
+}

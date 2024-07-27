@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>break-before</title>
+  <link rel="stylesheet" href="../../CSS/B/break-before.css">
+</head>
+
+<body>
+
+  <h1>break-before</h1>
+
+  <p>
+
+    Properti break-before dalam CSS digunakan untuk menentukan bagaimana elemen harus berperilaku sebelum elemen
+    tersebut dalam konteks pemformatan halaman, seperti cetakan, tata letak multi-kolom, dan elemen blok. Properti ini
+    menentukan apakah akan terjadi jeda (break) sebelum elemen yang diberikan, sehingga elemen tersebut akan dimulai
+    pada halaman, kolom, atau baris baru.
+  </p>
+
+  <h1>Nilai-nilai break-before</h1>
+
+  <ol>
+    <li><b>auto</b>: Tidak ada jeda otomatis. (Nilai default)</li>
+    <li><b>always</b>: Selalu membuat jeda sebelum elemen.</li>
+    <li><b>avoid</b>: Menghindari jeda sebelum elemen.</li>
+    <li><b>all</b>: Membuat jeda sebelum elemen untuk semua konteks (halaman, kolom, dan baris).</li>
+    <li><b>page</b>: Membuat jeda halaman sebelum elemen.</li>
+    <li><b>left</b>: Membuat jeda halaman sehingga elemen berada di halaman kiri berikutnya.</li>
+    <li><b>right</b>: Membuat jeda halaman sehingga elemen berada di halaman kanan berikutnya.</li>
+    <li><b>recto</b>: Membuat jeda halaman sehingga elemen berada di halaman depan berikutnya (biasanya halaman kanan).
+    </li>
+    <li><b>verso</b>: Membuat jeda halaman sehingga elemen berada di halaman belakang berikutnya (biasanya halaman
+      kiri).</li>
+    <li><b>column</b>: Membuat jeda kolom sebelum elemen.</li>
+    <li><b>avoid-page</b>: Menghindari jeda halaman sebelum elemen.</li>
+    <li><b>avoid-column</b>: Menghindari jeda kolom sebelum elemen.</li>
+  </ol>
+
+
+  <div class="container">
+    <div class="box next-box">Next Box - No special break behavior</div>
+    <div class="box break-auto">Auto</div>
+
+    <div class="box next-box">Next Box - Always starts on a new line</div>
+    <div class="box break-always">Always</div>
+
+    <div class="box next-box">Next Box - Avoids breaking</div>
+    <div class="box break-avoid">Avoid</div>
+
+    <div class="box next-box">Next Box - Breaks for any context (page, column, line)</div>
+    <div class="box break-all">All</div>
+
+    <div class="box next-box">Next Box - Starts on a new page if printed</div>
+    <div class="box break-page">Page</div>
+
+    <div class="box next-box">Next Box - Starts on a new left page if printed</div>
+    <div class="box break-left">Left</div>
+
+    <div class="box next-box">Next Box - Starts on a new right page if printed</div>
+    <div class="box break-right">Right</div>
+
+    <div class="box next-box">Next Box - Starts on a new recto (right) page if printed</div>
+    <div class="box break-recto">Recto</div>
+
+    <div class="box next-box">Next Box - Starts on a new verso (left) page if printed</div>
+    <div class="box break-verso">Verso</div>
+
+    <div class="box next-box">Next Box - Starts in a new column</div>
+    <div class="box break-column">Column</div>
+
+    <div class="box next-box">Next Box - Avoids breaking to a new page</div>
+    <div class="box break-avoid-page">Avoid Page</div>
+
+    <div class="box next-box">Next Box - Avoids breaking to a new column</div>
+    <div class="box break-avoid-column">Avoid Column</div>
+  </div>
+
+</body>
+
+</html>

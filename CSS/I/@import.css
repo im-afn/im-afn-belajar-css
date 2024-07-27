@@ -1,0 +1,25 @@
+/* Mengimpor stylesheet eksternal */
+@import url("https://example.com/external-styles.css");
+
+/* Mengimpor stylesheet lokal */
+@import "styles/layout.css";
+
+/* Mengimpor dengan media query */
+@import url("print.css") print;
+@import url("mobile.css") screen and (max-width: 600px);
+
+/* Gaya CSS lainnya */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}

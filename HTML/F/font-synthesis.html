@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>font-synthesis</title>
+  <link rel="stylesheet" href="../../CSS/F/font-synthesis.css">
+</head>
+
+<body>
+
+  <h1>font-synthesis</h1>
+
+  <p>
+    Properti font-synthesis dalam CSS digunakan untuk mengontrol apakah browser diizinkan untuk mensintesis gaya font
+    yang hilang, seperti bold atau italic. Hal ini berguna ketika font yang digunakan tidak memiliki gaya tertentu, dan
+    Anda ingin mencegah browser dari mencoba mensintesis gaya tersebut, yang mungkin menghasilkan hasil yang tidak
+    diinginkan.
+  </p>
+
+  <ul>
+    <li><b>none</b>: Browser tidak diizinkan untuk mensintesis gaya apa pun.</li>
+    <li><b>weight</b>: Browser diizinkan untuk mensintesis gaya tebal (bold).</li>
+    <li><b>style</b>: Browser diizinkan untuk mensintesis gaya miring (italic).</li>
+    <li><b>weight style</b>: Browser diizinkan untuk mensintesis baik gaya tebal maupun gaya miring.</li>
+    <li><b>inherit</b>: Mengambil nilai dari elemen induk.</li>
+    <li><b>initial</b>: Mengatur properti ke nilai defaultnya (weight style).</li>
+    <li><b>unset</b>: Menghapus nilai yang diberikan dan mengembalikan properti ke nilai aslinya.</li>
+  </ul>
+
+  <div class="text-example">
+    <h1>Contoh Penggunaan font-synthesis</h1>
+    <p class="no-synthesis">Ini adalah teks dengan font-synthesis: none; (tidak ada sintesis).</p>
+    <p class="synthesis-weight">Ini adalah teks dengan font-synthesis: weight; (sintesis tebal diizinkan).</p>
+    <p class="synthesis-style">Ini adalah teks dengan font-synthesis: style; (sintesis miring diizinkan).</p>
+    <p class="synthesis-both">Ini adalah teks dengan font-synthesis: weight style; (sintesis tebal dan miring
+      diizinkan).</p>
+  </div>
+
+</body>
+
+</html>

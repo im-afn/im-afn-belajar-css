@@ -1,0 +1,26 @@
+.vertical-mixed {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  /* Teks campuran */
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+}
+
+.vertical-upright {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  /* Teks vertikal */
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+}
+
+.vertical-sideways {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  /* Teks horizontal dalam tata letak vertikal */
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+}

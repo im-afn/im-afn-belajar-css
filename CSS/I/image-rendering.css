@@ -1,0 +1,17 @@
+img.auto {
+  width: 100px;
+  height: 100px;
+  image-rendering: auto;
+}
+
+img.crisp-edges {
+  width: 100px;
+  height: 100px;
+  image-rendering: crisp-edges;
+}
+
+img.pixelated {
+  width: 100px;
+  height: 100px;
+  image-rendering: pixelated;
+}

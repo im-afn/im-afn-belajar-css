@@ -1,0 +1,29 @@
+.underline-red {
+  text-decoration: underline;
+  text-decoration-color: red;
+  /* Garis bawah berwarna merah */
+}
+
+.overline-blue {
+  text-decoration: overline;
+  text-decoration-color: blue;
+  /* Garis di atas berwarna biru */
+}
+
+.line-through-green {
+  text-decoration: line-through;
+  text-decoration-color: green;
+  /* Garis tengah berwarna hijau */
+}
+
+.underline-rgba {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 0, 0, 0.5);
+  /* Garis bawah berwarna merah dengan transparansi */
+}
+
+.custom-color {
+  text-decoration: underline wavy;
+  text-decoration-color: purple;
+  /* Garis bawah bergelombang berwarna ungu */
+}

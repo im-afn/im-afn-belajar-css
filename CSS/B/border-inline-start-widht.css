@@ -1,0 +1,33 @@
+.example {
+  padding: 10px;
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+
+.thin {
+  border-inline-start-width: thin;
+}
+
+.medium {
+  border-inline-start-width: medium;
+}
+
+.thick {
+  border-inline-start-width: thick;
+}
+
+.satu {
+  border-inline-start-width: 1px;
+}
+
+.dua {
+  border-inline-start-width: 10px;
+}
+
+.tiga {
+  border-inline-start-width: 20px;
+}
+
+.empat {
+  border-inline-start-width: 30px;
+}

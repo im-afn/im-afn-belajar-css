@@ -1,0 +1,22 @@
+.container-luminance {
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+  mask-image: url('https://via.placeholder.com/150');
+  /* Ganti dengan path gambar mask luminance */
+  mask-type: luminance;
+  mask-size: cover;
+  mask-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.container-alpha {
+  width: 300px;
+  height: 300px;
+  background-color: lightgreen;
+  mask-image: url('https://via.placeholder.com/150');
+  /* Ganti dengan path gambar mask alpha */
+  mask-type: alpha;
+  mask-size: cover;
+  mask-repeat: no-repeat;
+}

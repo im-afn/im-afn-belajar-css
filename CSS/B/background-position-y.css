@@ -1,0 +1,21 @@
+.container {
+  width: 300px;
+  height: 200px;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png');
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  background-size: 100px;
+  margin-bottom: 20px;
+}
+
+.top-left {
+  background-position-y: top;
+}
+
+.center {
+  background-position-y: center;
+}
+
+.bottom-right {
+  background-position-y: bottom;
+}

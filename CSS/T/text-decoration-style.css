@@ -1,0 +1,29 @@
+.solid {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  /* Garis bawah solid */
+}
+
+.double {
+  text-decoration: underline;
+  text-decoration-style: double;
+  /* Garis bawah ganda */
+}
+
+.dotted {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  /* Garis bawah titik-titik */
+}
+
+.dashed {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  /* Garis bawah putus-putus */
+}
+
+.wavy {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  /* Garis bawah bergelombang */
+}

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border-width: 20px;
+  border-style: solid;
+  border-image-slice: 30;
+}
+
+.contoh1 {
+  border-image-source: url('../../Gambar/img_chania.jpg');
+}
+
+.contoh2 {
+  border-image-source: url('../../Gambar/img_flowers.jpg');
+}
+
+.contoh3 {
+  border-image-source: url('../../Gambar/mona-eendra.jpg');
+}
+
+.contoh4 {
+  border-image-source: url('../../Gambar/pranawa-capture.jpg');
+}
+
+.contoh5 {
+  border-image-source: none;
+  border-color: black;
+}

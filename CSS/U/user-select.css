@@ -1,0 +1,16 @@
+.selectable {
+  user-select: text;
+  /* Teks dapat dipilih */
+}
+
+.non-selectable {
+  user-select: none;
+  /* Teks tidak dapat dipilih */
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.select-all {
+  user-select: all;
+  /* Seluruh teks akan dipilih saat di-click */
+}

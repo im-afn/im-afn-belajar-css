@@ -1,0 +1,11 @@
+.custom-image-list {
+  list-style-image: url('https://example.com/path/to/image.png');
+}
+
+.no-image-list {
+  list-style-image: none;
+}
+
+.initial-image-list {
+  list-style-image: initial;
+}

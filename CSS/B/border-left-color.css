@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+  border-left-width: 5px;
+  border-left-style: solid;
+}
+
+.contoh1 {
+  border-left-color: red;
+}
+
+.contoh2 {
+  border-left-color: blue;
+}
+
+.contoh3 {
+  border-left-color: green;
+}
+
+.contoh4 {
+  border-left-color: orange;
+}
+
+.contoh5 {
+  border-left-color: purple;
+}
+
+.contoh6 {
+  border-left-color: black;
+}

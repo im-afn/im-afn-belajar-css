@@ -1,0 +1,41 @@
+.contoh {
+  width: 200px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contoh1 {
+  border-block-width: 2px;
+}
+
+.contoh2 {
+  border-block-width: 4px;
+}
+
+.contoh3 {
+  border-block-width: 6px;
+}
+
+.contoh1 {
+  width: 200px;
+  height: 100px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contoh11 {
+  border-block-width: thin;
+}
+
+.contoh22 {
+  border-block-width: medium;
+}
+
+.contoh33 {
+  border-block-width: thick;
+}

@@ -1,0 +1,18 @@
+.box1 {
+  width: 200px;
+  height: 100px;
+  /* Tinggi tetap 100px */
+  background-color: lightblue;
+}
+
+.container {
+  height: 300px;
+  /* Tinggi kontainer */
+  background-color: lightgray;
+}
+
+.box {
+  height: 50%;
+  /* Tinggi 50% dari elemen induk */
+  background-color: lightblue;
+}

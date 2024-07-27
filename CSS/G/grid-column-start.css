@@ -1,0 +1,134 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  /* Tiga kolom dengan lebar 100px */
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.item1 {
+  grid-column-start: 1;
+  /* Dimulai dari garis 1 */
+  grid-column-end: 3;
+  /* Berakhir pada garis 3 */
+}
+
+.item2 {
+  grid-column-start: 2;
+  /* Dimulai dari garis 2 */
+  grid-column-end: 4;
+  /* Berakhir pada garis 4 */
+}
+
+.item3 {
+  grid-column-start: 1;
+  /* Dimulai dari garis 1 */
+  grid-column-end: 4;
+  /* Berakhir pada garis 4 */
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6,
+#myDIV7 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV1 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV2 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV3 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV4 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV5 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV6 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV7 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: auto;
+}
+
+.item12 {
+  grid-column-start: span 2;
+}
+
+.item123 {
+  grid-column-start: span 3;
+}
+
+.item1234 {
+  grid-column-start: span 4;
+}
+
+.item12345 {
+  grid-column-start: 2;
+}
+
+.item123456 {
+  grid-column-start: 3;
+}
+
+.item1234567 {
+  grid-column-start: 4;
+}

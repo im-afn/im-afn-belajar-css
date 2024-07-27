@@ -1,0 +1,138 @@
+.div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  border-radius: 50%;
+  animation: mymove 3s infinite;
+  animation-delay: 1s;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  display: block;
+  line-height: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+
+.one {
+  animation: colorChange 3s ease-in-out 0s infinite, scaleUp 3s ease-in-out 0s infinite;
+}
+
+.two {
+  animation: colorChange 3s ease-in-out 1s infinite, scaleUp 3s ease-in-out 1s infinite;
+}
+
+.three {
+  animation: colorChange 3s ease-in-out 2s infinite, scaleUp 3s ease-in-out 2s infinite;
+}
+
+.four {
+  animation: rotate 4s linear 1s infinite;
+}
+
+.mydiv1 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+.mydiv2 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mylastmove 5s infinite;
+}
+
+.mydiv3 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myothermove 5s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: blue;
+  }
+
+  50% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes scaleUp {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
+}
+
+@keyframes myothermove {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: 100px;
+  }
+}
+
+@keyframes mylastmove {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: blue;
+  }
+}

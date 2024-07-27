@@ -1,0 +1,23 @@
+body {
+  color: black;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+p {
+  color: rgb(0, 128, 0);
+}
+
+span {
+  color: rgba(0, 0, 255, 0.5);
+}
+
+a {
+  color: hsl(240, 100%, 50%);
+}
+
+button {
+  color: hsla(120, 100%, 50%, 0.3);
+}

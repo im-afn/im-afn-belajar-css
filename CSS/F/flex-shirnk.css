@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  border: 2px solid #000;
+  padding: 10px;
+  width: 400px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  width: 150px;
+}
+
+.item1 {
+  flex-shrink: 1;
+}
+
+.item2 {
+  flex-shrink: 2;
+}
+
+.item3 {
+  flex-shrink: 3;
+}

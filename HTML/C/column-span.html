@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>column-span</title>
+  <link rel="stylesheet" href="../../CSS/C/column-span.css">
+</head>
+
+<body>
+
+  <h1>column-span</h1>
+
+  <p>
+    Properti column-span dalam CSS digunakan untuk menentukan apakah sebuah elemen dalam tata letak multi-kolom harus
+    menjangkau sejumlah kolom atau tidak. Properti ini memungkinkan elemen tersebut memperluas dirinya sendiri untuk
+    menempati lebih dari satu kolom dalam tata letak multi-kolom.
+  </p>
+
+  <ul>
+    <li><b>none</b>: Nilai default. Elemen tidak menjangkau sejumlah kolom.</li>
+    <li><b>all</b>: Elemen menjangkau semua kolom dalam kontainer multi-kolom. Ini memungkinkan elemen tersebut
+      memanjang dari
+      kolom pertama hingga kolom terakhir.</li>
+  </ul>
+
+
+  <div class="multi-column">
+    <p>This is a regular paragraph inside multi-column container.</p>
+    <p class="span-none">This paragraph spans only one column.</p>
+    <p>This is another regular paragraph inside multi-column container.</p>
+  </div>
+
+  <br><br><br>
+
+  <div class="multi-column1">
+    <p>This is a regular paragraph inside multi-column container.</p>
+    <p class="span-all">This paragraph spans across all columns.</p>
+    <p>This is another regular paragraph inside multi-column container.</p>
+  </div>
+
+
+</body>
+
+</html>

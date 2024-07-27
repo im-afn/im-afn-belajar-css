@@ -1,0 +1,11 @@
+.container {
+  counter-reset: counter;
+}
+
+.container p {
+  counter-increment: counter;
+}
+
+.container p::before {
+  content: "Item " counter(counter) ": ";
+}

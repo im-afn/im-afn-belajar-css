@@ -1,0 +1,13 @@
+.example {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: lightblue;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

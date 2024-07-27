@@ -1,0 +1,99 @@
+#main {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+#main div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+/* css stretch */
+
+#main1 {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: stretch;
+}
+
+#main1 div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+/* center */
+
+#main2 {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+#main2 div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+/* flex-start */
+
+#main3 {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+}
+
+#main3 div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+/* flex-end */
+
+#main4 {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+}
+
+#main4 div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+/* baseline */
+
+#main5 {
+  width: 220px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  align-items: baseline;
+}
+
+#main5 div {
+  flex: 1;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}

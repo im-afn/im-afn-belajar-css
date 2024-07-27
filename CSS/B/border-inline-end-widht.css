@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border-style: solid;
+  border-inline-end-color: black;
+}
+
+.contoh1 {
+  border-inline-end-width: thin;
+}
+
+.contoh2 {
+  border-inline-end-width: medium;
+}
+
+.contoh3 {
+  border-inline-end-width: thick;
+}
+
+.contoh4 {
+  border-inline-end-width: 5px;
+}
+
+.contoh5 {
+  border-inline-end-width: 10px;
+}
+
+.contoh6 {
+  border-inline-end-width: 15px;
+}

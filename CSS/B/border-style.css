@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.contoh1 {
+  border: 2px none black;
+}
+
+.contoh2 {
+  border: 2px dotted black;
+}
+
+.contoh3 {
+  border: 2px dashed black;
+}
+
+.contoh4 {
+  border: 2px solid black;
+}
+
+.contoh5 {
+  border: 4px double black;
+}
+
+.contoh6 {
+  border: 10px groove black;
+}
+
+.contoh7 {
+  border: 10px ridge black;
+}
+
+.contoh8 {
+  border: 10px inset black;
+}
+
+.contoh9 {
+  border: 10px outset black;
+}

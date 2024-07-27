@@ -1,0 +1,33 @@
+.text-example {
+  font-family: Arial, sans-serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.numeric {
+  font-weight: 600;
+  /* Semi-bold */
+}

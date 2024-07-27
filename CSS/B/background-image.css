@@ -1,0 +1,86 @@
+.bg-url1 {
+  width: 300px;
+  height: 200px;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png');
+  background-size: 150px;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.bg-url2 {
+  width: 300px;
+  height: 200px;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png'), url('../../Gambar/abstract.jpg');
+  background-size: 150px;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.bg-linear-gradient {
+  width: 300px;
+  height: 200px;
+  background-image: linear-gradient(to right, red, blue);
+  margin-bottom: 20px;
+}
+
+.bg-radial-gradient {
+  width: 300px;
+  height: 200px;
+  background-image: radial-gradient(circle, red, blue);
+  margin-bottom: 20px;
+}
+
+.bg-none {
+  width: 300px;
+  height: 200px;
+  background-image: none;
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+.bg-conic-gradient {
+  width: 300px;
+  height: 200px;
+  background-image: conic-gradient(from 0deg, red, yellow, green, blue, red);
+  margin-bottom: 20px;
+}
+
+.bg-combined {
+  width: 300px;
+  height: 200px;
+  background-image: url('../../Gambar/owl-clipart-standing-removebg-preview.png'), linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+  background-size: 150px;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.bg-repeating-conic {
+  width: 300px;
+  height: 200px;
+  background-image: repeating-conic-gradient(from 0deg, rgb(234, 83, 83), rgb(99, 68, 255) 10%, rgb(136, 93, 93) 20%);
+  margin-bottom: 20px;
+}
+
+.bg-repeating-linear {
+  width: 300px;
+  height: 200px;
+  background-image: repeating-linear-gradient(45deg, red, yellow 10%, green 20%);
+  margin-bottom: 20px;
+}
+
+.bg-repeating-radial {
+  width: 300px;
+  height: 200px;
+  background-image: repeating-radial-gradient(circle, red, yellow 10%, green 20%);
+  margin-bottom: 20px;
+}
+
+.bg-combined-repeating {
+  width: 300px;
+  height: 200px;
+  background-image: repeating-conic-gradient(from 0deg, red, yellow 10%, green 20%),
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) 10%);
+  background-size: cover;
+  background-blend-mode: overlay;
+  margin-bottom: 20px;
+}

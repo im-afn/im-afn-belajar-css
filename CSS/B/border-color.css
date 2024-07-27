@@ -1,0 +1,20 @@
+.contoh1 {
+  width: 200px;
+  height: 100px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.contoh2 {
+  width: 200px;
+  height: 100px;
+  border: 2px solid blue;
+  margin-bottom: 20px;
+}
+
+.contoh3 {
+  width: 200px;
+  height: 100px;
+  border: 2px solid green;
+  margin-bottom: 20px;
+}

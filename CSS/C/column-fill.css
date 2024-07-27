@@ -1,0 +1,16 @@
+.multi-column-auto {
+  column-count: 3;
+  column-gap: 20px;
+  column-fill: auto;
+  height: 200px;
+  border: 1px solid;
+}
+
+
+.multi-column-balance {
+  column-count: 3;
+  column-gap: 20px;
+  column-fill: balance;
+  height: 200px;
+  border: 1px solid;
+}

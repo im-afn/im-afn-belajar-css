@@ -1,0 +1,27 @@
+.emphasis-over {
+  text-emphasis: filled;
+  text-emphasis-color: red;
+  text-emphasis-position: over;
+  /* Simbol di atas teks */
+}
+
+.emphasis-under {
+  text-emphasis: filled;
+  text-emphasis-color: blue;
+  text-emphasis-position: under;
+  /* Simbol di bawah teks */
+}
+
+.emphasis-left {
+  text-emphasis: filled;
+  text-emphasis-color: green;
+  text-emphasis-position: left;
+  /* Simbol di sebelah kiri teks */
+}
+
+.emphasis-right {
+  text-emphasis: filled;
+  text-emphasis-color: purple;
+  text-emphasis-position: right;
+  /* Simbol di sebelah kanan teks */
+}

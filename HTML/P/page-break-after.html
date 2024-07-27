@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>page-break-after</title>
+  <link rel="stylesheet" href="../../CSS/P/page-break-after.css">
+</head>
+
+<body>
+
+  <h1>page-break-after</h1>
+
+  <p>
+    Properti page-break-after dalam CSS digunakan untuk mengontrol perilaku pemisahan halaman setelah elemen tertentu
+    pada saat mencetak halaman web. Properti ini mendefinisikan apakah dan bagaimana halaman cetak harus memisahkan
+    (break) setelah elemen yang diterapkan.
+  </p>
+
+  <ul>
+    <li><b>auto</b>: Menentukan bahwa pemisahan halaman setelah elemen diatur oleh browser.</li>
+    <li><b>always</b>: Memaksa pemisahan halaman setelah elemen, bahkan jika itu tidak diperlukan.</li>
+    <li><b>avoid</b>: Mencegah pemisahan halaman setelah elemen, jika memungkinkan.</li>
+    <li><b>left</b>: Memaksa pemisahan halaman setelah elemen untuk selalu dimulai pada halaman sebelah kiri.</li>
+    <li><b>right</b>: Memaksa pemisahan halaman setelah elemen untuk selalu dimulai pada halaman sebelah kanan.</li>
+    <li><b>recto</b>: Mirip dengan right, memaksa pemisahan halaman setelah elemen untuk dimulai pada halaman sebelah
+      kanan,
+      kecuali jika halaman itu sendiri dimulai pada halaman sebelah kiri (dalam konteks penulisan kiri-ke-kanan).
+    </li>
+    <li><b>verso</b>: Mirip dengan left, memaksa pemisahan halaman setelah elemen untuk dimulai pada halaman sebelah
+      kiri,
+      kecuali jika halaman itu sendiri dimulai pada halaman sebelah kanan (dalam konteks penulisan kiri-ke-kanan).</li>
+  </ul>
+
+  <div class="break-after">
+    <!-- Konten -->
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga iusto sit consectetur iste dignissimos fugiat ratione
+    magnam officia corporis ipsa rem, hic quas aut cupiditate non perspiciatis harum dolorum eveniet.
+  </div>
+  <br>
+  <div class="break-after1">
+    <!-- Konten -->
+  </div>
+
+</body>
+
+</html>

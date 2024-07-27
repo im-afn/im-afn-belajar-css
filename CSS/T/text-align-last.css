@@ -1,0 +1,29 @@
+.justify-text {
+  text-align: justify;
+  /* Menyelaraskan teks secara rata */
+}
+
+.justify-text-last-auto {
+  text-align-last: auto;
+  /* Nilai default */
+}
+
+.justify-text-last-left {
+  text-align-last: left;
+  /* Menyelaraskan baris terakhir ke kiri */
+}
+
+.justify-text-last-right {
+  text-align-last: right;
+  /* Menyelaraskan baris terakhir ke kanan */
+}
+
+.justify-text-last-center {
+  text-align-last: center;
+  /* Menyelaraskan baris terakhir ke tengah */
+}
+
+.justify-text-last-justify {
+  text-align-last: justify;
+  /* Menyelaraskan baris terakhir secara rata */
+}

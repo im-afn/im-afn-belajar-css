@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+  border-inline-end-width: 5px;
+}
+
+.contoh1 {
+  border-inline-end-color: red;
+}
+
+.contoh2 {
+  border-inline-end-color: blue;
+}
+
+.contoh3 {
+  border-inline-end-color: #ff00ff;
+}
+
+.contoh4 {
+  border-inline-end-color: rgb(0, 255, 0);
+}
+
+.contoh5 {
+  border-inline-end-color: hsl(240, 100%, 50%);
+}

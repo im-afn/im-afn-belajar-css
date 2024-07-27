@@ -1,0 +1,32 @@
+.text-example {
+  font-family: Arial, sans-serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.font-size-px {
+  font-size: 16px;
+}
+
+.font-size-em {
+  font-size: 1.5em;
+}
+
+.font-size-rem {
+  font-size: 1.5rem;
+}
+
+.font-size-percent {
+  font-size: 120%;
+}
+
+.font-size-keyword {
+  font-size: large;
+}

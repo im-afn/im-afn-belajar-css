@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clear</title>
+  <link rel="stylesheet" href="../../CSS/C/clear.css">
+</head>
+
+<body>
+
+  <h1>clear</h1>
+
+  <p>
+    Properti clear dalam CSS digunakan untuk mengontrol perilaku elemen mengikuti elemen float. Properti ini sering
+    digunakan untuk mencegah elemen bersebelahan dengan elemen yang diatur menggunakan properti float.
+  </p>
+
+  <p>
+    Properti clear sering digunakan dalam tata letak halaman web untuk mengelola penempatan elemen setelah elemen float.
+    Ini sangat berguna untuk memastikan elemen berikutnya ditempatkan dengan benar tanpa tumpang tindih atau penempatan
+    yang tidak diinginkan. Properti ini juga sering digunakan bersama dengan elemen "clearfix" untuk
+  </p>
+
+  <ul>
+    <li><b>none</b>: Default. Elemen tidak akan mempengaruhi elemen float sebelumnya.</li>
+    <li><b>left</b>: Elemen tidak akan menutupi elemen float di sisi kiri.</li>
+    <li><b>right</b>: Elemen tidak akan menutupi elemen float di sisi kanan.</li>
+    <li><b>both</b>: Elemen tidak akan menutupi elemen float di kedua sisi.</li>
+    <li><b>inline-start</b>: Elemen tidak akan menutupi elemen float di sisi inline-start (tergantung pada arah
+      penulisan teks).</li>
+    <li><b>inline-end</b>: Elemen tidak akan menutupi elemen float di sisi inline-end (tergantung pada arah penulisan
+      teks).</li>
+    <li><b>initial</b>: Mengatur properti ke nilai default (none).</li>
+    <li><b>inherit</b>: Mewarisi properti dari elemen induknya.</li>
+  </ul>
+
+  <header>
+    <h1>Contoh Properti CSS `clear` dalam Halaman Web</h1>
+  </header>
+
+  <main>
+    <section class="content">
+      <div class="float-box">Konten Float 1</div>
+      <div class="float-box">Konten Float 2</div>
+      <div class="float-box">Konten Float 3</div>
+      <div class="clear-both"></div>
+      <p>
+        Ini adalah paragraf yang ditempatkan setelah elemen yang mengambang. Properti clear memastikan bahwa paragraf
+        ini ditempatkan dengan benar di bawah elemen yang mengambang sebelumnya.
+      </p>
+    </section>
+
+    <section class="content">
+      <div class="float-box">Konten Float 4</div>
+      <div class="float-box">Konten Float 5</div>
+      <div class="clear-left"></div>
+      <p>
+        Paragraf ini menggunakan properti `clear: left;` sehingga ditempatkan di bawah elemen float di sebelah kiri.
+      </p>
+    </section>
+
+    <section class="content">
+      <div class="float-box">Konten Float 6</div>
+      <div class="clear-right"></div>
+      <p>
+        Paragraf ini menggunakan properti `clear: right;` sehingga ditempatkan di bawah elemen float di sebelah kanan.
+      </p>
+    </section>
+  </main>
+</body>
+
+</html>

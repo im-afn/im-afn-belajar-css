@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: transform 0.5s;
+  /* Animasi transformasi */
+  transform-origin: center;
+  /* Titik asal di tengah */
+}
+
+.box:hover {
+  transform: rotate(45deg);
+  /* Memutar saat hover */
+}
+
+.box-offset {
+  transform-origin: top left;
+  /* Titik asal di sudut kiri atas */
+}
+
+.box-offset:hover {
+  transform: rotate(45deg);
+  /* Memutar saat hover */
+}

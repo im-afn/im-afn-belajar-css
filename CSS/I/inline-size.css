@@ -1,0 +1,57 @@
+.box {
+  inline-size: 300px;
+  /* Mengatur ukuran inline menjadi 300px */
+  block-size: 100px;
+  /* Mengatur ukuran blok menjadi 100px */
+  background-color: lightblue;
+}
+
+.container {
+  inline-size: 50%;
+  /* Mengatur ukuran inline elemen induk */
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.box1 {
+  inline-size: 100%;
+  /* Mengatur ukuran inline elemen anak menjadi 100% dari elemen induk */
+  block-size: 100px;
+  background-color: lightblue;
+}
+
+.box2 {
+  inline-size: auto;
+  /* Mengatur ukuran inline secara otomatis */
+  block-size: 100px;
+  background-color: lightblue;
+}
+
+.bluediv1,
+.bluediv2,
+.bluediv3,
+.bluediv4,
+.bluediv5 {
+  background-color: lightblue;
+  height: 50px;
+}
+
+.bluediv1 {
+  inline-size: 10px;
+}
+
+.bluediv2 {
+  inline-size: 100px;
+}
+
+.bluediv3 {
+  inline-size: auto;
+}
+
+.bluediv4 {
+  inline-size: 20%;
+}
+
+.bluediv5 {
+  inline-size: 80%;
+}

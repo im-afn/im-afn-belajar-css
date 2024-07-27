@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  column-count: 2;
+  /* Untuk contoh penggunaan dalam kolom */
+  column-gap: 20px;
+}
+
+.box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.break-auto {
+  break-after: auto;
+}
+
+.break-always {
+  break-after: always;
+}
+
+.break-avoid {
+  break-after: avoid;
+}
+
+.break-all {
+  break-after: all;
+}
+
+.break-page {
+  break-after: page;
+}
+
+.break-left {
+  break-after: left;
+}
+
+.break-right {
+  break-after: right;
+}
+
+.break-recto {
+  break-after: recto;
+}
+
+.break-verso {
+  break-after: verso;
+}
+
+.break-column {
+  break-after: column;
+}
+
+.break-avoid-page {
+  break-after: avoid-page;
+}
+
+.break-avoid-column {
+  break-after: avoid-column;
+}
+
+.next-box {
+  background-color: lightcoral;
+}

@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  /* Menentukan jarak 20px antara baris */
+  column-gap: 10px;
+  /* Menentukan jarak 10px antara kolom */
+}
+
+.grid-item {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+}

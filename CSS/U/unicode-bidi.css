@@ -1,0 +1,13 @@
+.rtl {
+  direction: rtl;
+  /* Mengatur arah teks dari kanan ke kiri */
+  unicode-bidi: embed;
+  /* Menyisipkan teks RTL */
+}
+
+.ltr {
+  direction: ltr;
+  /* Mengatur arah teks dari kiri ke kanan */
+  unicode-bidi: embed;
+  /* Menyisipkan teks LTR */
+}

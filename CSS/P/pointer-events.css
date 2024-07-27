@@ -1,0 +1,9 @@
+.clickable {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  pointer-events: auto;
+  /* or other values like none */
+  cursor: pointer;
+  /* Optional: Change cursor style on hover */
+}

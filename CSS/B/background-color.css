@@ -1,0 +1,35 @@
+.color-name {
+  background-color: red;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.hex-value {
+  background-color: #00ff00;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.rgb-value {
+  background-color: rgb(0, 0, 255);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.rgba-value {
+  background-color: rgba(255, 165, 0, 0.5);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.hsl-value {
+  background-color: hsl(120, 100%, 50%);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.hsla-value {
+  background-color: hsla(240, 100%, 50%, 0.5);
+  padding: 10px;
+  margin-bottom: 10px;
+}

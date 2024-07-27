@@ -1,0 +1,41 @@
+.example {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.length {
+  block-size: 100px;
+  background-color: lightblue;
+}
+
+.percentage {
+  block-size: 50%;
+  background-color: lightcoral;
+}
+
+.auto {
+  block-size: auto;
+  background-color: rgb(148, 126, 126);
+}
+
+.fit-content {
+  block-size: fit-content;
+  background-color: lightgreen;
+}
+
+.fill-available {
+  block-size: fill-available;
+  background-color: lightyellow;
+}
+
+.min-content {
+  block-size: min-content;
+  background-color: lightsalmon;
+}
+
+.max-content {
+  block-size: max-content;
+  background-color: lightpink;
+}

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px;
+  border-style: solid;
+}
+
+.contoh1 {
+  border-inline-end: 5px solid red;
+}
+
+.contoh2 {
+  border-inline-end: 10px dashed;
+  border-inline-end-color: blue;
+}
+
+.contoh3 {
+  border-inline-end: 3px;
+  border-inline-end-color: green;
+  border-inline-end-style: solid;
+}
+
+.contoh4 {
+  border-inline-end: dashed;
+  border-inline-end-width: 2px;
+  border-inline-end-color: blue;
+}
+
+.contoh5 {
+  border-inline-end-style: dotted;
+  border-inline-end-width: 4px;
+  border-inline-end-color: purple;
+}

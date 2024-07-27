@@ -1,0 +1,23 @@
+.tabel1 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabel1 th,
+.tabel1 td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabel {
+  width: 100%;
+  border-collapse: separate;
+}
+
+.tabel th,
+.tabel td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}

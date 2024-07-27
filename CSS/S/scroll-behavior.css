@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+  /* Menerapkan scrolling halus pada seluruh dokumen */
+}
+
+.container {
+  height: 200px;
+  overflow-y: scroll;
+  /* Mengaktifkan pengguliran vertikal */
+  scroll-behavior: smooth;
+  /* Menerapkan scrolling halus pada elemen container */
+}
+
+.content {
+  height: 600px;
+  /* Memberikan tinggi agar pengguliran bisa dilakukan */
+  background: linear-gradient(to bottom, lightblue, lightgreen);
+}
+
+.link {
+  display: block;
+  margin: 20px 0;
+}

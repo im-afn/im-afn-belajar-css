@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid-auto-flow</title>
+  <link rel="stylesheet" href="../../CSS/G/grid-auto-flow.css">
+</head>
+
+<body>
+
+  <h1>grid-auto-flow</h1>
+
+  <p>
+    Properti grid-auto-flow dalam CSS digunakan untuk menentukan bagaimana item-item yang ditambahkan secara otomatis
+    akan ditempatkan ke dalam kontainer grid, baik itu berdasarkan baris atau kolom, dan dalam urutan apa mereka
+    ditempatkan.
+  </p>
+
+  <ul>
+    <li><b>row</b>: Item-item ditambahkan secara berbaris. Jika kontainer grid memiliki jumlah kolom yang tetap
+      (grid-template-columns), item-item akan pindah ke baris berikutnya setelah baris saat ini terisi penuh.</li>
+    <li><b>column</b>: Item-item ditambahkan secara berkolom. Jika kontainer grid memiliki jumlah baris yang tetap
+      (grid-template-rows), item-item akan pindah ke kolom berikutnya setelah kolom saat ini terisi penuh.</li>
+    <li><b>dense</b>: Serupa dengan row atau column, tetapi algoritma penempatan otomatis mencoba mengisi lubang-lubang
+      di grid
+      lebih awal jika item-item yang lebih kecil mengikuti. Ini mencoba mengemas item secara lebih padat.</li>
+  </ul>
+  <p>Contoh 1: grid-auto-flow: row;</p>
+  <div class="grid-container">
+    <div class="grid-item">Item 1</div>
+    <div class="grid-item">Item 2</div>
+    <div class="grid-item">Item 3</div>
+    <div class="grid-item">Item 4</div>
+    <div class="grid-item">Item 5</div>
+    <div class="grid-item">Item 6</div>
+  </div>
+
+  <p>Contoh 2: grid-auto-flow: column;</p>
+  <div class="grid-container1">
+    <div class="grid-itemm">Item 1</div>
+    <div class="grid-itemm">Item 2</div>
+    <div class="grid-itemm">Item 3</div>
+    <div class="grid-itemm">Item 4</div>
+    <div class="grid-itemm">Item 5</div>
+    <div class="grid-itemm">Item 6</div>
+  </div>
+
+  <p>Contoh 3: grid-auto-flow: dense;</p>
+  <div class="grid-container2">
+    <div class="grid-itemn">Item 1</div>
+    <div class="grid-itemn">Item 2</div>
+    <div class="grid-itemn">Item 3</div>
+    <div class="grid-itemn">Item 4</div>
+    <div class="grid-itemn">Item 5</div>
+    <div class="grid-itemn">Item 6</div>
+    <div class="grid-itemn">Item 7 (Tetap)</div>
+    <div class="grid-itemn">Item 8 (Tetap)</div>
+    <div class="grid-itemn">Item 9 (Tetap)</div>
+  </div>
+
+  <br><br><br>
+  <div id="myDIV">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+  </div>
+  <br><br><br>
+  <div id="myDIV1">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+  </div>
+  <br><br><br>
+  <div id="myDIV2">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+  </div>
+  <br><br><br>
+  <div id="myDIV3">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+  </div>
+  <br><br><br>
+  <div id="myDIV4">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item3">3</div>
+    <div class="item4">4</div>
+  </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body {
+  counter-reset: bagian;
+  /* Inisialisasi penghitung bagian ke 0 */
+}
+
+.bagian {
+  counter-reset: item;
+  /* Inisialisasi penghitung item ke 0 untuk setiap bagian */
+}
+
+.bagian h2::before {
+  counter-increment: bagian;
+  /* Meningkatkan penghitung bagian */
+  content: "Bagian " counter(bagian) ": ";
+}
+
+.bagian li::before {
+  counter-increment: item;
+  /* Meningkatkan penghitung item */
+  content: counter(bagian) "." counter(item) " ";
+  /* Contoh: 1.1, 1.2, 2.1, 2.2 */
+}

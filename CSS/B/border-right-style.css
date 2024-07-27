@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  background-color: lightgray;
+  border-right-width: 5px;
+  border-right-color: black;
+}
+
+/* Contoh 1: border-right-style solid */
+.contoh1 {
+  border-right-style: solid;
+}
+
+/* Contoh 2: border-right-style dashed */
+.contoh2 {
+  border-right-style: dashed;
+}
+
+/* Contoh 3: border-right-style dotted */
+.contoh3 {
+  border-right-style: dotted;
+}
+
+/* Contoh 4: border-right-style double */
+.contoh4 {
+  border-right-style: double;
+}
+
+/* Contoh 5: border-right-style groove */
+.contoh5 {
+  border-right-style: groove;
+}
+
+/* Contoh 6: border-right-style ridge */
+.contoh6 {
+  border-right-style: ridge;
+}
+
+/* Contoh 7: border-right-style inset */
+.contoh7 {
+  border-right-style: inset;
+}
+
+/* Contoh 8: border-right-style outset */
+.contoh8 {
+  border-right-style: outset;
+}

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+  border-inline-width: 5px;
+}
+
+.contoh1 {
+  border-inline-style: solid;
+}
+
+.contoh2 {
+  border-inline-style: dashed;
+}
+
+.contoh3 {
+  border-inline-style: dotted;
+}
+
+.contoh4 {
+  border-inline-style: double;
+}
+
+.contoh5 {
+  border-inline-style: groove;
+}
+
+.contoh6 {
+  border-inline-style: ridge;
+}
+
+.contoh7 {
+  border-inline-style: inset;
+}
+
+.contoh8 {
+  border-inline-style: outset;
+}

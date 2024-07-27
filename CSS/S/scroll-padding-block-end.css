@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+  /* Menerapkan scrolling halus pada seluruh dokumen */
+}
+
+body {
+  height: 2000px;
+  /* Memberikan tinggi agar pengguliran vertikal bisa dilakukan */
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  scroll-padding-block-end: 50px;
+  /* Menambahkan padding 50px di bagian bawah area pengguliran */
+}
+
+.content {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(45deg, #f06, yellow);
+}

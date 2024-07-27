@@ -1,0 +1,19 @@
+.shadow-basic {
+  text-shadow: 2px 2px;
+  /* Bayangan dasar */
+}
+
+.shadow-blur {
+  text-shadow: 2px 2px 5px grey;
+  /* Bayangan dengan keburaman */
+}
+
+.shadow-color {
+  text-shadow: 2px 2px 5px red;
+  /* Bayangan dengan warna merah */
+}
+
+.shadow-multiple {
+  text-shadow: 2px 2px 3px black, -2px -2px 3px grey;
+  /* Bayangan ganda */
+}

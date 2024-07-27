@@ -1,0 +1,23 @@
+.contoh {
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contoh1 {
+  border-bottom-right-radius: 20px;
+}
+
+.contoh2 {
+  border-bottom-right-radius: 50%;
+}
+
+.contoh3 {
+  border-bottom-right-radius: 10px;
+}
+
+.contoh4 {
+  border-bottom-right-radius: 0;
+}

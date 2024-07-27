@@ -1,0 +1,23 @@
+.contoh {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid;
+  margin-bottom: 20px;
+}
+
+.contoh1 {
+  border-bottom: 5px solid black;
+}
+
+.contoh2 {
+  border-bottom: 5px dotted black;
+}
+
+.contoh3 {
+  border-bottom: 5px dashed black;
+}
+
+.contoh4 {
+  border-bottom: 5px double black;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cursor</title>
+  <link rel="stylesheet" href="../../CSS/C/cursor.css">
+</head>
+
+<body>
+
+  <h1>cursor</h1>
+
+  <p>
+    Properti cursor dalam CSS digunakan untuk menentukan jenis kursor mouse yang akan ditampilkan ketika pengguna
+    mengarahkan mouse mereka ke suatu elemen. Ini membantu memberikan umpan balik visual yang sesuai dengan interaksi
+    yang diharapkan, seperti menunjukkan bahwa suatu elemen dapat diklik atau diseret.
+  </p>
+
+  <ol>
+    <li><b>default</b>: Kursor default (biasanya panah).</li>
+    <li><b>auto</b>: Kursor default yang dipilih oleh browser.</li>
+    <li><b>none</b>: Menyembunyikan kursor.</li>
+    <li><b>context-menu</b>: Kursor untuk konteks menu.</li>
+    <li><b>help</b>: Kursor tanda tanya, biasanya digunakan untuk bantuan.</li>
+    <li><b>pointer</b>: Kursor tangan yang menunjuk, biasanya digunakan untuk tautan.</li>
+    <li><b>progress</b>: Kursor menunjukkan operasi sedang berjalan, tetapi pengguna masih dapat berinteraksi.</li>
+    <li><b>wait</b>: Kursor menunjukkan operasi sedang berjalan, pengguna tidak dapat berinteraksi.</li>
+    <li><b>cell</b>: Kursor menunjukkan sel tabel.</li>
+    <li><b>crosshair</b>: Kursor crosshair (tanda silang).</li>
+    <li><b>text</b>: Kursor I-bar, digunakan untuk teks yang dapat disorot.</li>
+    <li><b>vertical-text</b>: Kursor untuk teks vertikal.</li>
+    <li><b>alias</b>: Kursor untuk alias.</li>
+    <li><b>copy</b>: Kursor menunjukkan salinan akan dibuat.
+    </li>
+    <li><b>move</b>: Kursor untuk memindahkan sesuatu.
+    </li>
+    <li><b>no-drop</b>: Kursor menunjukkan bahwa objek tidak dapat dijatuhkan di sini.</li>
+    <li><b>not-allowed</b>: Kursor tidak diizinkan.
+    </li>
+    <li><b>grab</b>: Kursor tangan terbuka, menunjukkan sesuatu dapat diambil.</li>
+    <li><b>grabbing</b>: Kursor tangan tertutup, menunjukkan sesuatu sedang dipegang.</li>
+    <li><b>all-scroll</b>: Kursor untuk menggulir semua arah.</li>
+    <li><b>col-resize</b>: Kursor untuk mereset ukuran kolom (panah kiri-kanan).</li>
+    <li><b>row-resize</b>: Kursor untuk mereset ukuran baris (panah atas-bawah).</li>
+    <li><b>n-resize</b>: Kursor untuk mereset ukuran ke utara (atas).</li>
+    <li><b>e-resize</b>: Kursor untuk mereset ukuran ke timur (kanan).</li>
+    <li><b>s-resize</b>: Kursor untuk mereset ukuran ke selatan (bawah).</li>
+    <li><b>w-resize</b>: Kursor untuk mereset ukuran ke barat (kiri).</li>
+    <li><b>ne-resize</b>: Kursor untuk mereset ukuran ke timur laut (kanan atas).</li>
+    <li><b>nw-resize</b>: Kursor untuk mereset ukuran ke barat laut (kiri atas).</li>
+    <li><b>se-resize</b>: Kursor untuk mereset ukuran ke tenggara (kanan bawah).</li>
+    <li><b>sw-resize</b>: Kursor untuk mereset ukuran ke barat daya (kiri bawah).</li>
+    <li><b>ew-resize</b>: Kursor untuk mereset ukuran kiri-kanan.</li>
+    <li><b>ns-resize</b>: Kursor untuk mereset ukuran atas-bawah.</li>
+    <li><b>nesw-resize</b>: Kursor untuk mereset ukuran diagonal (timur laut ke barat daya).</li>
+    <li><b>nwse-resize</b>: Kursor untuk mereset ukuran diagonal (barat laut ke tenggara).</li>
+    <li><b>url()</b>: Menggunakan gambar kursor kustom dari URL yang diberikan.</li>
+  </ol>
+
+  <div class="cursor-default">default</div>
+  <div class="cursor-auto">auto</div>
+  <div class="cursor-none">none</div>
+  <div class="cursor-context-menu">context-menu</div>
+  <div class="cursor-help">help</div>
+  <div class="cursor-pointer">pointer</div>
+  <div class="cursor-progress">progress</div>
+  <div class="cursor-wait">wait</div>
+  <div class="cursor-cell">cell</div>
+  <div class="cursor-crosshair">crosshair</div>
+  <div class="cursor-text">text</div>
+  <div class="cursor-vertical-text">vertical-text</div>
+  <div class="cursor-alias">alias</div>
+  <div class="cursor-copy">copy</div>
+  <div class="cursor-move">move</div>
+  <div class="cursor-no-drop">no-drop</div>
+  <div class="cursor-not-allowed">not-allowed</div>
+  <div class="cursor-grab">grab</div>
+  <div class="cursor-grabbing">grabbing</div>
+  <div class="cursor-all-scroll">all-scroll</div>
+  <div class="cursor-col-resize">col-resize</div>
+  <div class="cursor-row-resize">row-resize</div>
+  <div class="cursor-n-resize">n-resize</div>
+  <div class="cursor-e-resize">e-resize</div>
+  <div class="cursor-s-resize">s-resize</div>
+  <div class="cursor-w-resize">w-resize</div>
+  <div class="cursor-ne-resize">ne-resize</div>
+  <div class="cursor-nw-resize">nw-resize</div>
+  <div class="cursor-se-resize">se-resize</div>
+  <div class="cursor-sw-resize">sw-resize</div>
+  <div class="cursor-ew-resize">ew-resize</div>
+  <div class="cursor-ns-resize">ns-resize</div>
+  <div class="cursor-nesw-resize">nesw-resize</div>
+  <div class="cursor-nwse-resize">nwse-resize</div>
+  <div class="cursor-custom">custom (URL)</div>
+</body>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 200px 100px;
+  /* Tiga baris dengan tinggi 100px, 200px, dan 100px */
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  /* Tiga baris dengan ukuran fraksi 1fr, 2fr, dan 1fr */
+  gap: 10px;
+}
+
+.grid-item1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  /* Empat baris dengan ukuran fraksi yang sama */
+  gap: 10px;
+}
+
+.grid-item2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3 {
+  height: 300px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV1 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV2 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV3 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#myDIV {
+  grid-template-rows: auto auto;
+}
+
+#myDIV1 {
+  grid-template-rows: 50px 100px;
+}
+
+#myDIV2 {
+  grid-template-rows: 20% 20%;
+}
+
+#myDIV3 {
+  grid-template-rows: 70px auto;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-inline-width: 5px;
+}
+
+/* Contoh 1: border-inline-color dengan satu warna */
+.contoh1 {
+  border-inline-color: red;
+}
+
+/* Contoh 2: border-inline-color dengan dua warna berbeda */
+.contoh2 {
+  border-inline-color: blue green;
+}
+
+/* Contoh 3: border-inline-color dengan nilai heksadesimal */
+.contoh3 {
+  border-inline-color: #ff00ff #00ffff;
+}
+
+/* Contoh 4: border-inline-color dengan nilai RGB */
+.contoh4 {
+  border-inline-color: rgb(255, 165, 0) rgb(0, 128, 128);
+}
+
+/* Contoh 5: border-inline-color dengan nilai HSL */
+.contoh5 {
+  border-inline-color: hsl(120, 100%, 50%) hsl(240, 100%, 50%);
+}

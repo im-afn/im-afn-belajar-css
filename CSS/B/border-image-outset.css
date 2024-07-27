@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contoh {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  background-color: #693030;
+  border-width: 10px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  border: 20px solid;
+  border-image-source: url('../../Gambar/img_5terre.jpg');
+  border-image-slice: 30;
+}
+
+.contoh1 {
+  border-image-outset: 10px;
+}
+
+.contoh2 {
+  border-image-outset: 20px 10px;
+}
+
+.contoh3 {
+  border-image-outset: 15px 10px 5px;
+}
+
+.contoh4 {
+  border-image-outset: 10px 20px 30px 50px;
+}
+
+.myDIV {
+  height: 100px;
+  width: 50%;
+  background-color: #693030;
+  border: 15px solid transparent;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-image-source: url('../../Gambar/border.png');
+  border-image-repeat: stretch;
+  border-image-slice: 30;
+  border-image-width: 10px;
+  border-image-outset: 10px;
+}
+
+.satu {
+  border-image-outset: 2px;
+}
+
+.dua {
+  border-image-outset: 5px;
+  ;
+}
+
+.tiga {
+  border-image-outset: 10px;
+}
+
+.empat {
+  border-image-outset: 10px 2px;
+}
+
+.lima {
+  border-image-outset: 10px 5px;
+}
+
+.enam {
+  border-image-outset: 10px 5px 15px 5px;
+}
+
+.tujuh {
+  border-image-outset: 0px;
+}
+
+.delapan {
+  border-image-outset: 1px;
+}

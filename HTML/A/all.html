@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>all</title>
+  <link rel="stylesheet" href="../../CSS/A/all.css">
+</head>
+
+<body>
+
+  <h1>all</h1>
+
+  <p>
+    Properti all dalam CSS adalah properti yang digunakan untuk menerapkan satu set nilai properti CSS ke semua elemen
+    dalam sebuah dokumen. Ini menggabungkan penggunaan seluruh properti CSS dalam satu aturan, memberikan kemampuan
+    untuk mengatur secara global nilai-nilai properti untuk semua elemen di halaman web.
+  </p>
+
+  <p><b>all: initial|inherit|unset;</b></p>
+
+  <p>
+    Contoh 1: Mengatur Ulang Semua Properti CSS:
+    <br>
+    Misalkan Anda ingin mengatur ulang semua properti CSS untuk semua elemen ke nilai awalnya. Anda dapat menggunakan
+    properti all: initial; untuk melakukan ini.
+    <br><br>
+    Contoh 2: Menghapus Properti CSS yang Diturunkan:
+    <br>
+    Misalkan Anda ingin menghapus semua properti CSS yang diturunkan dari elemen-elemen di dalam suatu area konten,
+    kecuali yang telah ditetapkan secara langsung dalam aturan CSS. Anda dapat menggunakan properti all: unset; untuk
+    melakukan ini.
+  </p>
+
+  <p>No all property:</p>
+  <div id="ex1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    dolore magna aliqua.</div>
+
+  <p>all: inherit:</p>
+  <div id="ex2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    dolore magna aliqua.</div>
+
+  <p>all: initial:</p>
+  <div id="ex3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    dolore magna aliqua.</div>
+
+  <p>all: unset:</p>
+  <div id="ex4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    dolore magna aliqua.</div>
+
+  <p>
+    1. initial <br>
+    Nilai initial mengatur nilai semua properti CSS kembali ke nilai awalnya atau nilai bawaan yang ditentukan oleh
+    spesifikasi CSS. Dengan kata lain, penggunaan all: initial; akan mengembalikan semua properti CSS untuk semua elemen
+    ke nilai defaultnya. Misalnya, jika Anda memiliki elemen yang memiliki properti color, font-size, dan lainnya yang
+    telah disesuaikan sebelumnya, menggunakan all: initial; akan mengembalikan semua properti tersebut ke nilai
+    defaultnya.
+  </p>
+
+  <p>
+    2. inherit <br>
+    Nilai inherit menyebabkan elemen mewarisi nilai properti dari elemen induknya. Jika nilai properti tidak ditetapkan
+    pada elemen tersebut, maka nilai properti akan diwarisi dari elemen induknya. Misalnya, jika Anda memiliki sebuah
+    elemen yang memiliki properti color yang ditetapkan secara spesifik, menggunakan all: inherit; akan menyebabkan
+    elemen tersebut mewarisi nilai color dari elemen induknya.
+  </p>
+
+  <p>
+    3. unset <br>
+    Nilai unset memberikan efek berbeda tergantung pada apakah properti tersebut diwarisi dari elemen induk atau tidak:
+    <br>
+    Jika properti tersebut diwarisi dari elemen induk, maka nilai properti akan disetel ke inherit.
+    Jika properti tersebut tidak diwarisi dari elemen induk, maka nilai properti akan disetel ke initial.
+    <br><br>
+    Dengan kata lain, penggunaan all: unset; akan menghapus semua properti CSS yang diturunkan dari elemen-elemen di
+    dalam area tertentu, kecuali properti-properti yang telah ditetapkan secara langsung dalam aturan CSS, dan nilai
+    properti yang tidak diwarisi akan dikembalikan ke nilai defaultnya.
+  </p>
+
+</body>
+
+</html>

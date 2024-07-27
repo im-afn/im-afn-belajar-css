@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+  margin: 50px auto;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 5px;
+}
+
+.contoh1 {
+
+  bottom: 20px;
+}
+
+.contoh2 {
+  bottom: 40px;
+}
+
+.contoh3 {
+  bottom: 60px;
+}

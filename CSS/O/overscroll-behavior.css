@@ -1,0 +1,12 @@
+.scrollable-container {
+  width: 300px;
+  /* Lebar kontainer */
+  height: 200px;
+  /* Tinggi kontainer */
+  overflow: auto;
+  /* Aktifkan overflow */
+  border: 1px solid #ccc;
+  /* Garis pinggir */
+  overscroll-behavior: contain;
+  /* Atur perilaku overscrolling */
+}

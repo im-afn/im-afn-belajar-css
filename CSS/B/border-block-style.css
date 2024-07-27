@@ -1,0 +1,26 @@
+.contoh {
+  width: 200px;
+  height: 100px;
+  border: 2px solid;
+  border-block-start-width: 3px;
+  border-block-end-width: 3px;
+  border-color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contoh1 {
+  border-block-style: solid;
+}
+
+.contoh2 {
+  border-block-style: dotted;
+}
+
+.contoh3 {
+  border-block-style: dashed;
+}
+
+.contoh4 {
+  border-block-style: double;
+}

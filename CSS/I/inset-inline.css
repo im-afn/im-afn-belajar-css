@@ -1,0 +1,110 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.box {
+  position: absolute;
+  inset-inline: 10px;
+  /* 10px dari tepi kiri dan kanan dalam penulisan horizontal */
+  inset-block-start: 20px;
+  /* 20px dari tepi atas dalam penulisan horizontal */
+  background-color: lightblue;
+  height: 100px;
+}
+
+.container1 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.box1 {
+  position: absolute;
+  inset-inline: 5% 10%;
+  /* 5% dari tepi kiri dan 10% dari tepi kanan dalam penulisan horizontal */
+  inset-block-start: 20px;
+  /* 20px dari tepi atas dalam penulisan horizontal */
+  background-color: lightblue;
+  height: 100px;
+}
+
+.container2 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+}
+
+.box2 {
+  position: absolute;
+  inset-inline: auto;
+  /* Browser menentukan jarak secara otomatis */
+  inset-block-start: 20px;
+  background-color: lightblue;
+  height: 100px;
+  width: 100px;
+}
+
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6,
+#myDIV7 {
+  height: 300px;
+  position: relative;
+  background-color: #b0ac5f;
+}
+
+.bluediv,
+.bluediv1,
+.bluediv2,
+.bluediv3,
+.bluediv4,
+.bluediv5,
+.bluediv6,
+.bluediv7 {
+  position: absolute;
+  height: 100%;
+  background-color: lightblue;
+}
+
+
+.bluediv {
+  inset-inline: 0;
+}
+
+.bluediv1 {
+  inset-inline: 10px;
+}
+
+.bluediv2 {
+  inset-inline: 100px;
+}
+
+.bluediv3 {
+  inset-inline: auto;
+}
+
+.bluediv4 {
+  inset-inline: 20%;
+}
+
+.bluediv5 {
+  inset-inline: 10% 30%;
+}
+
+.bluediv6 {
+  inset-inline: 0 20%;
+}
+
+.bluediv7 {
+  inset-inline: 10px 1px;
+}

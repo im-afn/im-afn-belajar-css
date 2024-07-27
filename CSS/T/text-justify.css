@@ -1,0 +1,27 @@
+.justify-auto {
+  text-align: justify;
+  text-justify: auto;
+  /* Metode default browser */
+}
+
+.justify-none {
+  text-align: justify;
+  text-justify: none;
+  /* Tidak ada penyesuaian khusus */
+}
+
+.justify-inter-word {
+  text-align: justify;
+  text-justify: inter-word;
+  /* Ruang tambahan di antara kata-kata */
+}
+
+.justify-inter-character {
+  text-align: justify;
+  text-justify: inter-character;
+  /* Ruang tambahan di antara karakter */
+}
+
+body {
+  background-color: aqua;
+}

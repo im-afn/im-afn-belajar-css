@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  /* Tinggi penuh viewport */
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  overflow-x: scroll;
+  /* Mengizinkan pengguliran horizontal */
+  scroll-snap-type: x mandatory;
+  /* Mengatur jenis penyesuaian pengguliran */
+}
+
+.item {
+  flex: none;
+  /* Menghindari perubahan ukuran item */
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  background: linear-gradient(45deg, #f06, yellow);
+  scroll-snap-align: start;
+  /* Menyelaraskan item ke awal saat pengguliran */
+  scroll-snap-stop: always;
+  /* Selalu berhenti pada elemen yang disesuaikan */
+}

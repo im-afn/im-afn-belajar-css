@@ -1,0 +1,42 @@
+.x {
+  width: 200px;
+  hyphens: none;
+  border: 1px solid black;
+}
+
+.y {
+  width: 200px;
+  hyphens: manual;
+  border: 1px solid black;
+}
+
+.xy {
+  width: 200px;
+  hyphens: auto;
+  border: 1px solid black;
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2 {
+  height: 300px;
+  background-color: #FFFFFF;
+}
+
+.bluediv {
+  width: 65px;
+  background-color: lightblue;
+  hyphens: none;
+}
+
+.bluediv1 {
+  width: 65px;
+  background-color: lightblue;
+  hyphens: manual;
+}
+
+.bluediv2 {
+  width: 65px;
+  background-color: lightblue;
+  hyphens: auto;
+}

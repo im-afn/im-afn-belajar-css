@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>align self</title>
+  <link rel="stylesheet" href="../../CSS/A/align-self.css">
+</head>
+
+<body>
+
+  <h1>align-self</h1>
+
+  <p>
+    Properti align-self dalam CSS digunakan untuk mengontrol posisi vertikal individu dari setiap item dalam sebuah
+    kontainer flex. Ini memungkinkan Anda untuk menyesuaikan posisi vertikal item secara independen dari yang lain dalam
+    kontainer flex.
+  </p>
+
+  <p>
+    Kapan Menggunakan:
+    <br>
+    Flexbox: Properti ini berguna ketika Anda ingin mengatur posisi vertikal individu dari item-item dalam kontainer
+    flex, yang berbeda dari posisi vertikal yang ditetapkan oleh align-items pada kontainer.
+  </p>
+
+  <p>
+    Dengan menggunakan align-self, Anda dapat mengontrol posisi vertikal individu dari item-item dalam sebuah kontainer
+    flex, memberikan fleksibilitas tambahan dalam tata letak responsif dan kompleks.
+  </p>
+
+  <p><b>align-self: auto|stretch|center|flex-start|flex-end|baseline|initial|inherit;</b></p>
+
+  <div id="main">
+    <div style="background-color:coral;">RED</div>
+    <div style="background-color:lightblue;" id="myBlueDiv">BLUE</div>
+    <div style="background-color:lightgreen;">Green div with more content.</div>
+  </div>
+
+  <br><br>
+
+  <p><b>align-self stretch</b></p>
+
+  <div id="main1">
+    <div style="background-color:coral;">This DIV has little content.</div>
+    <div id="myBlueDiv1" style="background-color:lightblue;">This DIV has more content and usually this can be a problem
+      when aligning multiple DIV elements.</div>
+    <div style="background-color:lightgreen;">This <br>DIV<br>has<br>many<br>line<br>breaks.</div>
+  </div>
+
+  <br><br>
+
+  <p><b>align-self center</b></p>
+
+  <div id="main2">
+    <div style="background-color:coral;">This DIV has little content.</div>
+    <div id="myBlueDiv2" style="background-color:lightblue;">This DIV has more content and usually this can be a problem
+      when aligning multiple DIV elements.</div>
+    <div style="background-color:lightgreen;">This <br>DIV<br>has<br>many<br>line<br>breaks.</div>
+  </div>
+
+  <br><br>
+
+  <p><b>align-self flex-start</b></p>
+
+  <div id="main3">
+    <div style="background-color:coral;">This DIV has little content.</div>
+    <div id="myBlueDiv3" style="background-color:lightblue;">This DIV has more content and usually this can be a problem
+      when aligning multiple DIV elements.</div>
+    <div style="background-color:lightgreen;">This <br>DIV<br>has<br>many<br>line<br>breaks.</div>
+  </div>
+
+  <br><br>
+
+  <p><b>align-self flex-end</b></p>
+
+  <div id="main4">
+    <div style="background-color:coral;">This DIV has little content.</div>
+    <div id="myBlueDiv4" style="background-color:lightblue;">This DIV has more content and usually this can be a problem
+      when aligning multiple DIV elements.</div>
+    <div style="background-color:lightgreen;">This <br>DIV<br>has<br>many<br>line<br>breaks.</div>
+  </div>
+
+  <br><br>
+
+  <p><b>align-self baseline</b></p>
+
+  <div id="main5">
+    <div style="background-color:coral;">This DIV has little content.</div>
+    <div id="myBlueDiv5" style="background-color:lightblue;">This DIV has more content and usually this can be a problem
+      when aligning multiple DIV elements.</div>
+    <div style="background-color:lightgreen;">This <br>DIV<br>has<br>many<br>line<br>breaks.</div>
+  </div>
+
+</body>
+
+</html>

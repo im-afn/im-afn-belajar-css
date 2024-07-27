@@ -1,0 +1,70 @@
+.normal-height {
+  line-height: normal;
+}
+
+.number-height {
+  line-height: 1.5;
+}
+
+.length-height {
+  line-height: 30px;
+}
+
+.percentage-height {
+  line-height: 200%;
+}
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6,
+#myDIV7,
+#myDIV8,
+#myDIV9 {
+  max-width: 500px;
+  height: 150px;
+  background-color: #e9acac;
+}
+
+#myDIV {
+  line-height: normal;
+}
+
+#myDIV1 {
+  line-height: 1;
+}
+
+#myDIV2 {
+  line-height: 1.6;
+}
+
+#myDIV3 {
+  line-height: 2;
+}
+
+#myDIV4 {
+  line-height: 200%;
+}
+
+#myDIV5 {
+  line-height: 10px;
+}
+
+#myDIV6 {
+  line-height: 25px;
+}
+
+#myDIV7 {
+  line-height: 80%;
+}
+
+#myDIV8 {
+  line-height: 120%;
+}
+
+#myDIV9 {
+  line-height: 150%;
+}

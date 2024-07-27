@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  border: 2px solid #000;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.item {
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  width: 100px;
+}
+
+.row-wrap {
+  flex-flow: row wrap;
+}
+
+.row-nowrap {
+  flex-flow: row nowrap;
+}
+
+.column-wrap {
+  flex-flow: column wrap;
+}
+
+.column-nowrap {
+  flex-flow: column nowrap;
+}

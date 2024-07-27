@@ -1,0 +1,18 @@
+.container {
+  width: 200px;
+  /* Lebar kontainer */
+  height: 100px;
+  /* Tinggi kontainer */
+  border: 1px solid #ccc;
+  /* Garis pinggir */
+}
+
+.vertical-scroll {
+  overflow-y: scroll;
+  /* Aktifkan scrollbar vertikal */
+}
+
+.hidden-overflow {
+  overflow-y: hidden;
+  /* Sembunyikan konten yang melebihi batas vertikal */
+}

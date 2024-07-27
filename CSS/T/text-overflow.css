@@ -1,0 +1,32 @@
+.clip {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  /* Memotong teks */
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ellipsis {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* Menampilkan elipsis */
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.custom-string {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ' >>>';
+  /* Menampilkan string kustom */
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}

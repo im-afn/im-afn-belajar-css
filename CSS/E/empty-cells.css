@@ -1,0 +1,19 @@
+table {
+  width: 50%;
+  border: 1px solid;
+  border-collapse: separate;
+}
+
+td {
+  border: 1px solid black;
+  height: 50px;
+  text-align: center;
+}
+
+.show {
+  empty-cells: show;
+}
+
+.hide {
+  empty-cells: hide;
+}

@@ -1,0 +1,17 @@
+.mask1 {
+  -webkit-mask-image: url(w3logo.png);
+  mask-image: url(w3logo.png);
+  -webkit-mask-size: 50%;
+  mask-size: 50%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.mask2 {
+  -webkit-mask-image: url(w3logo.png);
+  mask-image: url(w3logo.png);
+  -webkit-mask-size: 50%;
+  mask-size: 50%;
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+}

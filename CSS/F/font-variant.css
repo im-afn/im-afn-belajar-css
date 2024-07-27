@@ -1,0 +1,20 @@
+.text-example {
+  font-family: Arial, sans-serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.normal {
+  font-variant: normal;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}

@@ -1,0 +1,29 @@
+.no-decoration {
+  text-decoration: none;
+  /* Tidak ada dekorasi teks */
+}
+
+.underline {
+  text-decoration: underline;
+  /* Garis bawah pada teks */
+}
+
+.overline {
+  text-decoration: overline;
+  /* Garis di atas teks */
+}
+
+.line-through {
+  text-decoration: line-through;
+  /* Garis tengah pada teks */
+}
+
+.underline-overline {
+  text-decoration: underline overline;
+  /* Garis bawah dan garis di atas pada teks */
+}
+
+.custom-decoration {
+  text-decoration: underline wavy red;
+  /* Garis bawah bergelombang berwarna merah */
+}

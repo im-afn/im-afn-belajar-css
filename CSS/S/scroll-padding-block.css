@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+  /* Menerapkan scrolling halus pada seluruh dokumen */
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  scroll-padding-block: 50px 20px;
+  /* Menambahkan padding 50px di bagian atas dan 20px di bagian bawah area pengguliran */
+}
+
+.content {
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(45deg, #f06, yellow);
+}

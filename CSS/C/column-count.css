@@ -1,0 +1,18 @@
+.multi-column {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.multi-column p {
+  margin: 0;
+}
+
+.multi-column1 {
+  column-count: 3;
+  column-gap: 20px;
+  column-rule: 1px solid black;
+}
+
+.multi-column1 p {
+  margin: 0;
+}

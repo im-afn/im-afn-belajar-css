@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pointer-events</title>
+  <link rel="stylesheet" href="../../CSS/P/pointer-events.css">
+</head>
+
+<body>
+
+  <h1>pointer-events</h1>
+
+  <p>
+    Properti pointer-events dalam CSS digunakan untuk mengontrol bagaimana sebuah elemen merespons terhadap peristiwa
+    (events) pointer seperti klik mouse atau sentuhan pada layar. Properti ini memungkinkan pengaturan apakah sebuah
+    elemen dapat menerima atau mengabaikan peristiwa pointer, serta bagaimana peristiwa tersebut berinteraksi dengan
+    elemen-elemen di bawahnya.
+  </p>
+
+  <ul>
+    <li><b>auto</b>: Ini adalah nilai default di mana elemen akan merespons terhadap peristiwa pointer jika elemen
+      tersebut
+      seharusnya menerima input.</li>
+    <li><b>none</b>: Mengabaikan peristiwa pointer pada elemen, yang artinya elemen tidak akan merespons terhadap klik
+      atau
+      sentuhan.</li>
+    <li><b>visiblePainted</b>: Elemen hanya merespons terhadap peristiwa pointer jika area yang terlihat (visible) dari
+      elemen
+      tersebut tidak transparan.</li>
+    <li><b>visibleFill</b>: Elemen hanya merespons terhadap peristiwa pointer jika bagian isi (fill) dari elemen
+      tersebut tidak
+      transparan.</li>
+    <li><b>visibleStroke</b>: Elemen hanya merespons terhadap peristiwa pointer jika bagian garis tepi (stroke) dari
+      elemen
+      tersebut tidak transparan.</li>
+    <li><b>painted</b>: Elemen hanya merespons terhadap peristiwa pointer jika area elemen tersebut tidak transparan.
+    </li>
+    <li><b>fill</b>: Elemen hanya merespons terhadap peristiwa pointer jika bagian isi (fill) dari elemen tersebut tidak
+      transparan.</li>
+    <li><b>stroke</b>: Elemen hanya merespons terhadap peristiwa pointer jika bagian garis tepi (stroke) dari elemen
+      tersebut
+      tidak transparan.</li>
+    <li><b>all</b>: Elemen akan selalu merespons terhadap peristiwa pointer, bahkan jika elemen tersebut transparan atau
+      diluar
+      area yang terlihat (visible).</li>
+  </ul>
+
+  <div class="clickable">
+    Click me!
+  </div>
+
+</body>
+
+</html>

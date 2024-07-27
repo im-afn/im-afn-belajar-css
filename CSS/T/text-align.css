@@ -1,0 +1,19 @@
+.left-align {
+  text-align: left;
+  /* Menyelaraskan teks ke kiri */
+}
+
+.right-align {
+  text-align: right;
+  /* Menyelaraskan teks ke kanan */
+}
+
+.center-align {
+  text-align: center;
+  /* Menyelaraskan teks ke tengah */
+}
+
+.justify-align {
+  text-align: justify;
+  /* Menyelaraskan teks secara rata */
+}

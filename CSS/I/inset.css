@@ -1,0 +1,112 @@
+.container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.box {
+  position: absolute;
+  inset: 10px 20px 30px 40px;
+  /* top right bottom left */
+  background-color: lightblue;
+}
+
+.container1 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.box1 {
+  position: absolute;
+  inset: 5% 10% 15% 20%;
+  /* top right bottom left */
+  background-color: lightblue;
+}
+
+.container2 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.box2 {
+  position: absolute;
+  inset: 10px auto 20px auto;
+  /* top auto bottom auto */
+  background-color: lightblue;
+}
+
+
+
+#myDIV,
+#myDIV1,
+#myDIV2,
+#myDIV3,
+#myDIV4,
+#myDIV5,
+#myDIV6,
+#myDIV7,
+#myDIV8,
+#myDIV9 {
+  height: 300px;
+  position: relative;
+  background-color: #cd9c9c;
+}
+
+.bluediv,
+.bluediv1,
+.bluediv2,
+.bluediv3,
+.bluediv4,
+.bluediv5,
+.bluediv6,
+.bluediv7,
+.bluediv8,
+.bluediv9 {
+  position: absolute;
+  background-color: lightblue;
+}
+
+.bluediv {
+  inset: 0;
+}
+
+.bluediv1 {
+  inset: 10px;
+}
+
+.bluediv2 {
+  inset: 100px;
+}
+
+.bluediv3 {
+  inset: auto;
+}
+
+.bluediv4 {
+  inset: 20%;
+}
+
+.bluediv5 {
+  inset: 10% 30%;
+}
+
+.bluediv6 {
+  inset: 5px 5% 30%;
+}
+
+.bluediv7 {
+  inset: 0 0 0 20%;
+}
+
+.bluediv8 {
+  inset: 10px 2px 30px 90px;
+}
+
+.bluediv9 {
+  inset: 10px 1px;
+}

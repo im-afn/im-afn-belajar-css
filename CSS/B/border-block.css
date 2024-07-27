@@ -1,0 +1,17 @@
+h2,
+h3,
+div {
+  background-color: lightgreen;
+}
+
+h2 {
+  border-block: 5px solid red;
+}
+
+h3 {
+  border-block: 4px dotted blue;
+}
+
+div {
+  border-block: double;
+}

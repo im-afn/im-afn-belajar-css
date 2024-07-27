@@ -1,0 +1,40 @@
+.text-example {
+  font-family: Arial, sans-serif;
+}
+
+.text-example h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-example p {
+  margin-bottom: 15px;
+}
+
+.normal {
+  font-variant-caps: normal;
+}
+
+.small-caps {
+  font-variant-caps: small-caps;
+}
+
+.all-small-caps {
+  font-variant-caps: all-small-caps;
+}
+
+.petite-caps {
+  font-variant-caps: petite-caps;
+}
+
+.all-petite-caps {
+  font-variant-caps: all-petite-caps;
+}
+
+.unicase {
+  font-variant-caps: unicase;
+}
+
+.titling-caps {
+  font-variant-caps: titling-caps;
+}

@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+  /* Menerapkan scrolling halus pada seluruh dokumen */
+}
+
+body {
+  height: 2000px;
+  /* Memberikan tinggi agar pengguliran bisa dilakukan */
+}
+
+.section {
+  height: 500px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 50px 0;
+}
+
+.target {
+  scroll-margin-block-start: 100px;
+  /* Menambahkan margin 100px di atas elemen target */
+}
+
+#container {
+  width: 80%;
+  aspect-ratio: 3/1;
+  padding: 40px 0;
+  margin: auto;
+  border: solid black 2px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.blue {
+  background-color: lightblue;
+  width: 95%;
+  aspect-ratio: 3/1;
+}
+
+.green {
+  background-color: lightgreen;
+  width: 80%;
+  aspect-ratio: 4/1;
+}
+
+.blue,
+.green {
+  margin: 2px;
+  scroll-snap-align: start none;
+  scroll-margin-block-start: 50px;
+}

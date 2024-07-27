@@ -1,0 +1,22 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: background-color 0.5s ease;
+  /* Menggunakan timing function */
+}
+
+.box:hover {
+  background-color: red;
+  /* Warna berubah saat hover */
+}
+
+.box-fast {
+  transition-timing-function: linear;
+  /* Contoh dengan linear */
+}
+
+.box-slow {
+  transition-timing-function: ease-in-out;
+  /* Contoh dengan ease-in-out */
+}

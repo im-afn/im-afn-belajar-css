@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.contoh1 {
+  border-inline-width: 1px;
+}
+
+.contoh2 {
+  border-inline-width: 3px;
+}
+
+.contoh3 {
+  border-inline-width: 5px;
+}
+
+.contoh4 {
+  border-inline-width: 8px;
+}
+
+.contoh5 {
+  border-inline-width: 10px;
+}
+
+.contoh6 {
+  border-inline-width: 15px;
+}

@@ -1,0 +1,19 @@
+.visible {
+  visibility: visible;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.collapse-table {
+  border-collapse: collapse;
+}
+
+.collapse-row {
+  visibility: collapse;
+}

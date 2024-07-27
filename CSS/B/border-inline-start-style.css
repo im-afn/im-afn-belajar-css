@@ -1,0 +1,52 @@
+.example {
+  border-inline-start-width: 7px;
+  padding: 10px;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+
+.example {
+  border-inline-start-width: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.none {
+  border-inline-start-style: none;
+}
+
+.hidden {
+  border-inline-start-style: hidden;
+}
+
+.dotted {
+  border-inline-start-style: dotted;
+}
+
+.dashed {
+  border-inline-start-style: dashed;
+}
+
+.solid {
+  border-inline-start-style: solid;
+}
+
+.double {
+  border-inline-start-style: double;
+}
+
+.groove {
+  border-inline-start-style: groove;
+}
+
+.ridge {
+  border-inline-start-style: ridge;
+}
+
+.inset {
+  border-inline-start-style: inset;
+}
+
+.outset {
+  border-inline-start-style: outset;
+}

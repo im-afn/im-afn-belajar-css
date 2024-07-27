@@ -1,0 +1,13 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-inline: 10px;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-inline: 30px 20px;
+}

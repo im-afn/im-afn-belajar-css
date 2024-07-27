@@ -1,0 +1,49 @@
+.element {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.circle-clip {
+  clip-path: circle(50% at center);
+}
+
+.ellipse-clip {
+  clip-path: ellipse(50% 30% at center);
+}
+
+.polygon-clip {
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.path-clip {
+  clip-path: path('M10 80 Q 95 10 180 80 T 280 80');
+}
+
+.shape {
+  clip-path: inset(20px 40px 60px 80px);
+}
+
+.circle {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.ellipse {
+  clip-path: ellipse(50% 30% at 50% 50%);
+}
+
+.polygon {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.path {
+  clip-path: path("M10 80 Q 95 10 180 80 T 280 80");
+}
+
+.url {
+  clip-path: url('shape.svg#clipPath');
+}
+
+.none {
+  clip-path: none;
+}

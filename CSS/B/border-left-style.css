@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+  border-left-width: 5px;
+  border-left-color: black;
+}
+
+.contoh1 {
+  border-left-style: solid;
+}
+
+.contoh2 {
+  border-left-style: dashed;
+}
+
+.contoh3 {
+  border-left-style: dotted;
+}
+
+.contoh4 {
+  border-left-style: double;
+}
+
+.contoh5 {
+  border-left-style: groove;
+}
+
+.contoh6 {
+  border-left-style: ridge;
+}
+
+.contoh7 {
+  border-left-style: inset;
+}
+
+.contoh8 {
+  border-left-style: outset;
+}

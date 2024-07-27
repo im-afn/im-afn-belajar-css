@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.contoh1 {
+  border-left: 5px solid red;
+}
+
+.contoh2 {
+  border-left: 10px dashed;
+  border-left-color: blue;
+}
+
+.contoh3 {
+  border-left: 3px;
+  border-left-color: green;
+  border-left-style: solid;
+}
+
+.contoh4 {
+  border-left: dashed;
+  border-left-width: 2px;
+  border-left-color: orange;
+}
+
+.contoh5 {
+  border-left-style: dotted;
+  border-left-width: 4px;
+  border-left-color: purple;
+}

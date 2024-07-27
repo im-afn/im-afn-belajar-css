@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+  /* Menerapkan scrolling halus pada seluruh dokumen */
+}
+
+body {
+  width: 2000px;
+  /* Memberikan lebar agar pengguliran horizontal bisa dilakukan */
+  height: 100vh;
+  /* Memastikan tinggi body mencakup tampilan penuh */
+}
+
+.section {
+  width: 500px;
+  height: 100vh;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 0 50px;
+  display: inline-block;
+}
+
+.target {
+  scroll-margin-left: 100px;
+  /* Menambahkan margin 100px di sisi kiri elemen target */
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contoh {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
+.contoh1 {
+  border-left-width: 1px;
+}
+
+.contoh2 {
+  border-left-width: 3px;
+}
+
+.contoh3 {
+  border-left-width: 5px;
+}
+
+.contoh4 {
+  border-left-width: 10px;
+}
+
+.contoh5 {
+  border-left-width: 15px;
+}

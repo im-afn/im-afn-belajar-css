@@ -1,0 +1,17 @@
+.underline-auto {
+  text-decoration: underline;
+  text-underline-offset: auto;
+  /* Menyesuaikan posisi underline secara otomatis */
+}
+
+.underline-5px {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  /* Menambahkan jarak 5px antara teks dan garis bawah */
+}
+
+.underline-10px {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  /* Menambahkan jarak 10px antara teks dan garis bawah */
+}

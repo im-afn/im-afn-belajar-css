@@ -1,0 +1,24 @@
+.emphasis {
+  text-emphasis: filled;
+  /* Penekanan berisi */
+  text-emphasis-color: red;
+  /* Warna penekanan merah */
+}
+
+.emphasis-blue {
+  text-emphasis: filled;
+  text-emphasis-color: blue;
+  /* Warna penekanan biru */
+}
+
+.emphasis-green {
+  text-emphasis: filled;
+  text-emphasis-color: green;
+  /* Warna penekanan hijau */
+}
+
+.emphasis-purple {
+  text-emphasis: filled;
+  text-emphasis-color: purple;
+  /* Warna penekanan ungu */
+}

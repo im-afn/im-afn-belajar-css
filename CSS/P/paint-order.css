@@ -1,0 +1,11 @@
+svg {
+  width: 200px;
+  height: 200px;
+}
+
+.shape {
+  fill: yellow;
+  stroke: blue;
+  stroke-width: 10;
+  paint-order: stroke fill;
+}
